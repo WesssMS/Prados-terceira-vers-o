@@ -1,0 +1,1397 @@
+# Copyright (C) 2024 Woo
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: Woo Product Add-ons 6.9.0\n"
+"Report-Msgid-Bugs-To: https://woocommerce.com/my-account/create-a-ticket/\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-07-03T12:50:20+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"language-team: LANGUAGE <EMAIL@ADDRESS>\n"
+"X-Domain: woocommerce-product-addons\n"
+
+#. Plugin Name of the plugin
+#: woocommerce-product-addons.php
+msgid "Woo Product Add-ons"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: woocommerce-product-addons.php
+msgid "https://woocommerce.com/products/product-add-ons/"
+msgstr ""
+
+#. Description of the plugin
+#: woocommerce-product-addons.php
+msgid "Add extra options to products which your customers can select from, when adding to the cart, with an optional fee for each extra option. Add-ons can be checkboxes, a select box, or custom text input."
+msgstr ""
+
+#. Author of the plugin
+#: woocommerce-product-addons.php
+msgid "Woo"
+msgstr ""
+
+#. Author URI of the plugin
+#: woocommerce-product-addons.php
+msgid "https://woocommerce.com"
+msgstr ""
+
+#: includes/admin/class-wc-product-addons-admin-ajax.php:62
+#: includes/admin/class-wc-product-addons-admin-ajax.php:65
+#: includes/admin/views/addons/image.php:23
+#: includes/admin/views/addons/image.php:24
+#: includes/admin/views/addons/image.php:83
+#: includes/admin/views/addons/radiobutton.php:34
+#: includes/admin/views/addons/select.php:27
+#: templates/addons/image.php:22
+#: templates/addons/image.php:23
+#: templates/addons/image.php:68
+#: templates/addons/radiobutton.php:26
+#: templates/addons/select.php:26
+msgid "None"
+msgstr ""
+
+#. translators: %1$s: Addon title, %2$s: Before value, %3$s: After value
+#: includes/admin/class-wc-product-addons-admin-ajax.php:69
+msgctxt "addon value changed note format"
+msgid "%1$s changed from <em>(%2$s)</em> to <em>(%3$s)</em>"
+msgstr ""
+
+#. translators: List of items
+#: includes/admin/class-wc-product-addons-admin-ajax.php:196
+msgid "Adjusted product addons: %s"
+msgstr ""
+
+#: includes/admin/class-wc-product-addons-admin-list-table.php:62
+#: includes/admin/class-wc-product-addons-admin-order.php:95
+#: includes/admin/class-wc-product-addons-admin.php:421
+#: resources/js/admin/product-editor/components/list-item/index.js:175
+msgid "Edit"
+msgstr ""
+
+#: includes/admin/class-wc-product-addons-admin-list-table.php:63
+#: includes/admin/class-wc-product-addons-admin-list-table.php:173
+#: resources/js/admin/product-editor/components/list-item/index.js:137
+#: resources/js/admin/product-editor/components/options-list-item/index.js:147
+msgid "Delete"
+msgstr ""
+
+#. translators: %s: Global add-on group name
+#: includes/admin/class-wc-product-addons-admin-list-table.php:72
+msgid "%s (Edit)"
+msgstr ""
+
+#. translators: %s: Add-on title
+#: includes/admin/class-wc-product-addons-admin-list-table.php:89
+msgid "Select %s"
+msgstr ""
+
+#: includes/admin/class-wc-product-addons-admin-list-table.php:115
+#: includes/admin/views/html-global-admin-add.php:42
+msgid "All Products"
+msgstr ""
+
+#: includes/admin/class-wc-product-addons-admin-list-table.php:117
+msgid "No Products Assigned"
+msgstr ""
+
+#: includes/admin/class-wc-product-addons-admin-list-table.php:143
+msgctxt "column_name"
+msgid "Name"
+msgstr ""
+
+#: includes/admin/class-wc-product-addons-admin-list-table.php:144
+msgctxt "column_name"
+msgid "Display Order"
+msgstr ""
+
+#: includes/admin/class-wc-product-addons-admin-list-table.php:145
+msgctxt "column_name"
+msgid "Product Categories"
+msgstr ""
+
+#: includes/admin/class-wc-product-addons-admin-list-table.php:146
+msgctxt "column_name"
+msgid "Number of fields"
+msgstr ""
+
+#: includes/admin/class-wc-product-addons-admin-list-table.php:202
+msgid "Add-ons deleted."
+msgstr ""
+
+#: includes/admin/class-wc-product-addons-admin-list-table.php:278
+msgid "No add-ons found"
+msgstr ""
+
+#: includes/admin/class-wc-product-addons-admin-order.php:93
+#: includes/admin/class-wc-product-addons-admin.php:420
+msgid "Configure"
+msgstr ""
+
+#: includes/admin/class-wc-product-addons-admin-order.php:126
+msgid "Done"
+msgstr ""
+
+#: includes/admin/class-wc-product-addons-admin.php:80
+#: includes/admin/class-wc-product-addons-admin.php:81
+#: includes/admin/class-wc-product-addons-admin.php:130
+#: includes/admin/class-wc-product-addons-admin.php:144
+#: includes/admin/class-wc-product-addons-admin.php:680
+#: includes/compatibility/modules/class-wc-product-addons-product-editor-compatibility.php:66
+msgid "Add-ons"
+msgstr ""
+
+#: includes/admin/class-wc-product-addons-admin.php:99
+#: includes/admin/class-wc-product-addons-privacy.php:24
+msgid "Product Add-ons"
+msgstr ""
+
+#: includes/admin/class-wc-product-addons-admin.php:159
+msgid "Show Incomplete subtotal"
+msgstr ""
+
+#: includes/admin/class-wc-product-addons-admin.php:160
+msgid "Show running subtotal, even if not all required add-on choices have been made."
+msgstr ""
+
+#: includes/admin/class-wc-product-addons-admin.php:283
+msgid "Could not import add-ons. Please review the import string and try again."
+msgstr ""
+
+#: includes/admin/class-wc-product-addons-admin.php:310
+msgid "Could not import add-ons, as the import string was created by an older plugin version. Please export your add-ons again and retry."
+msgstr ""
+
+#. translators: %s number of imported add-ons
+#: includes/admin/class-wc-product-addons-admin.php:347
+msgid "%d add-ons were successfully imported."
+msgstr ""
+
+#: includes/admin/class-wc-product-addons-admin.php:393
+msgid "Please complete all highlighted fields before saving."
+msgstr ""
+
+#: includes/admin/class-wc-product-addons-admin.php:394
+msgid "Add-on titles must have maximum 255 characters. Please update the titles of the highlighted add-ons."
+msgstr ""
+
+#: includes/admin/class-wc-product-addons-admin.php:395
+#: includes/admin/views/html-addon.php:217
+#: resources/js/admin/product-editor/components/price-limit/index.js:61
+msgid "Limit price"
+msgstr ""
+
+#: includes/admin/class-wc-product-addons-admin.php:396
+#: includes/admin/views/html-addon.php:221
+#: resources/js/admin/product-editor/components/quantity-limit/index.js:50
+msgid "Limit quantity"
+msgstr ""
+
+#: includes/admin/class-wc-product-addons-admin.php:397
+#: includes/admin/views/html-addon.php:224
+#: includes/admin/views/html-addon.php:227
+#: resources/js/admin/product-editor/components/character-limit/index.js:49
+msgid "Limit character length"
+msgstr ""
+
+#: includes/admin/class-wc-product-addons-admin.php:398
+#: includes/admin/views/html-addon.php:211
+msgid "Restrictions"
+msgstr ""
+
+#: includes/admin/class-wc-product-addons-admin.php:399
+msgid "Remove this add-on field?"
+msgstr ""
+
+#: includes/admin/class-wc-product-addons-admin.php:400
+msgid "Delete this option?"
+msgstr ""
+
+#: includes/admin/class-wc-product-addons-admin.php:401
+msgid "Add Image Swatch"
+msgstr ""
+
+#: includes/admin/class-wc-product-addons-admin.php:402
+msgid "Add Image"
+msgstr ""
+
+#: includes/admin/class-wc-product-addons-admin.php:403
+msgid "Use this field to paste the add-ons you previously exported."
+msgstr ""
+
+#: includes/admin/class-wc-product-addons-admin.php:404
+msgid "Add-ons successfully copied to your clipboard."
+msgstr ""
+
+#: includes/admin/class-wc-product-addons-admin.php:405
+msgid "The selected add-on groups will be deleted permanently. Are you sure?"
+msgstr ""
+
+#: includes/admin/class-wc-product-addons-admin.php:406
+#: includes/admin/views/html-addon.php:174
+#: resources/js/admin/product-editor/components/options-list-item/index.js:209
+#: resources/js/admin/product-editor/components/options-list-item/index.js:236
+#: resources/js/admin/product-editor/components/options-list/index.js:112
+msgid "Option title"
+msgstr ""
+
+#: includes/admin/class-wc-product-addons-admin.php:407
+msgid "Option title/image"
+msgstr ""
+
+#: includes/admin/class-wc-product-addons-admin.php:422
+msgid "Failed to initialize form. If this issue persists, please reload the page and try again."
+msgstr ""
+
+#: includes/admin/class-wc-product-addons-admin.php:423
+msgid "Failed to validate configuration. If this issue persists, please reload the page and try again."
+msgstr ""
+
+#: includes/admin/class-wc-product-addons-admin.php:459
+#: includes/admin/views/html-global-admin.php:16
+msgid "Global Add-ons"
+msgstr ""
+
+#. translators: %1$s max_input_vars size
+#: includes/admin/class-wc-product-addons-admin.php:478
+#: includes/admin/class-wc-product-addons-admin.php:737
+msgid "Product Add-Ons has detected that your server may have failed to process and save some of the data on this page. Please get in touch with your server's host or administrator and (kindly) ask them to increase the number of variables that PHP scripts can post and process%1$s."
+msgstr ""
+
+#. translators: %1$s max_input_vars size
+#: includes/admin/class-wc-product-addons-admin.php:478
+#: includes/admin/class-wc-product-addons-admin.php:737
+msgid " (currently %s)"
+msgstr ""
+
+#: includes/admin/class-wc-product-addons-admin.php:489
+msgid "Add-on saved successfully"
+msgstr ""
+
+#: includes/admin/class-wc-product-addons-admin.php:500
+#: includes/admin/class-wc-product-addons-admin.php:517
+msgid "Error: Add-on not found"
+msgstr ""
+
+#: includes/admin/class-wc-product-addons-admin.php:532
+#: includes/admin/class-wc-product-addons-admin.php:613
+msgid "Add-ons Group"
+msgstr ""
+
+#: includes/admin/class-wc-product-addons-admin.php:544
+msgid "Add-on deleted successfully"
+msgstr ""
+
+#: includes/admin/class-wc-product-addons-admin.php:564
+#: includes/admin/views/html-addon-panel.php:75
+#: resources/js/admin/product-editor/components/header-actions/index.js:73
+#: resources/js/admin/product-editor/utils/get-addon-type-label.js:15
+msgid "Checkboxes"
+msgstr ""
+
+#: includes/admin/class-wc-product-addons-admin.php:567
+#: includes/admin/views/html-addon.php:185
+#: resources/js/admin/product-editor/components/options-list/index.js:133
+#: resources/js/admin/product-editor/components/price/index.js:81
+#: resources/js/admin/product-editor/components/price/index.js:93
+msgid "Price"
+msgstr ""
+
+#: includes/admin/class-wc-product-addons-admin.php:570
+#: includes/admin/views/html-addon-panel.php:80
+#: resources/js/admin/product-editor/components/header-actions/index.js:127
+#: resources/js/admin/product-editor/components/header-actions/index.js:133
+#: resources/js/admin/product-editor/utils/get-addon-type-label.js:23
+msgid "Quantity"
+msgstr ""
+
+#: includes/admin/class-wc-product-addons-admin.php:573
+#: includes/admin/views/html-addon-panel.php:76
+msgid "Short Text"
+msgstr ""
+
+#: includes/admin/class-wc-product-addons-admin.php:576
+#: includes/admin/views/html-addon-panel.php:77
+msgid "Long Text"
+msgstr ""
+
+#: includes/admin/class-wc-product-addons-admin.php:579
+#: includes/admin/views/html-addon-panel.php:78
+msgid "File Upload"
+msgstr ""
+
+#: includes/admin/class-wc-product-addons-admin.php:582
+#: includes/admin/views/html-addon.php:106
+#: resources/js/admin/product-editor/utils/get-addon-display-options.js:14
+msgid "Dropdown"
+msgstr ""
+
+#: includes/admin/class-wc-product-addons-admin.php:585
+#: includes/admin/views/html-addon-panel.php:82
+#: resources/js/admin/product-editor/components/header-actions/index.js:145
+#: resources/js/admin/product-editor/components/header-actions/index.js:154
+msgid "Date Picker"
+msgstr ""
+
+#: includes/admin/class-wc-product-addons-admin.php:589
+#: includes/admin/views/html-addon-panel.php:74
+#: resources/js/admin/product-editor/components/header-actions/index.js:53
+#: resources/js/admin/product-editor/components/header-actions/index.js:62
+msgid "Multiple Choice"
+msgstr ""
+
+#. translators: %1$s: Product name
+#: includes/admin/class-wc-product-addons-admin.php:722
+msgid "<strong>%1$s</strong> has at least one add-on whose <strong>Title</strong> is longer than <strong>255</strong> characters. Please adjust its value and save your changes."
+msgstr ""
+
+#: includes/admin/class-wc-product-addons-admin.php:893
+msgid "Some add-ons could not be saved correctly because their <strong>Title</strong> was not set. Please review your add-ons configuration and update this product."
+msgstr ""
+
+#: includes/admin/class-wc-product-addons-admin.php:897
+msgid "Some add-ons could not be saved correctly because their <strong>Title</strong> was longer than 255 characters. Please review your add-ons configuration and update this product."
+msgstr ""
+
+#: includes/admin/class-wc-product-addons-admin.php:1010
+msgid "SKU:"
+msgstr ""
+
+#. translators: %s ID of variation
+#: includes/admin/class-wc-product-addons-admin.php:1019
+msgid "%s (No longer exists)"
+msgstr ""
+
+#: includes/admin/class-wc-product-addons-admin.php:1022
+msgid "Variation ID:"
+msgstr ""
+
+#. translators: %1$s is the HTML for the opening tag of the link element. %2$s is the closing tag. The text between will be a hyperlink.
+#: includes/admin/class-wc-product-addons-privacy.php:34
+msgid "By using this extension, you may be storing personal data or sharing data with an external service. %1$sLearn more about how this works, including what you may want to include in your privacy policy.%2$s"
+msgstr ""
+
+#: includes/admin/views/addons/addon-start.php:82
+#: includes/admin/views/addons/addon-start.php:103
+#: templates/addons/addon-start.php:82
+#: templates/addons/addon-start.php:103
+msgid "Required field"
+msgstr ""
+
+#: includes/admin/views/addons/datepicker.php:52
+#: templates/addons/datepicker.php:43
+msgid "Clear"
+msgstr ""
+
+#. translators: %s existing filename.
+#: includes/admin/views/addons/file_upload.php:39
+msgid "Existing file: %s"
+msgstr ""
+
+#. translators: %s file size.
+#: includes/admin/views/addons/file_upload.php:62
+#: templates/addons/file-upload.php:42
+msgid "(max file size %s)"
+msgstr ""
+
+#: includes/admin/views/addons/image.php:85
+#: includes/admin/views/addons/select.php:29
+#: templates/addons/image.php:70
+#: templates/addons/select.php:28
+msgid "Select an option..."
+msgstr ""
+
+#: includes/admin/views/html-addon-option.php:39
+#: includes/admin/views/html-addon.php:267
+#: resources/js/admin/product-editor/utils/get-addon-price-types.js:14
+msgid "Flat Fee"
+msgstr ""
+
+#: includes/admin/views/html-addon-option.php:40
+#: includes/admin/views/html-addon.php:268
+msgid "Quantity Based"
+msgstr ""
+
+#: includes/admin/views/html-addon-option.php:41
+#: includes/admin/views/html-addon.php:269
+msgid "Percentage Based"
+msgstr ""
+
+#: includes/admin/views/html-addon-option.php:53
+msgid "Delete option"
+msgstr ""
+
+#: includes/admin/views/html-addon-panel.php:20
+msgid "Use Global Add-Ons?"
+msgstr ""
+
+#. translators: %s link to global add-ons tab
+#: includes/admin/views/html-addon-panel.php:22
+msgid "Use this option to control if <a href=\"%s\">global add-ons</a> are assigned to this product."
+msgstr ""
+
+#: includes/admin/views/html-addon-panel.php:28
+msgid "Product Add-Ons"
+msgstr ""
+
+#: includes/admin/views/html-addon-panel.php:31
+msgid "Import"
+msgstr ""
+
+#: includes/admin/views/html-addon-panel.php:32
+msgid "Export"
+msgstr ""
+
+#: includes/admin/views/html-addon-panel.php:33
+msgid "Close all"
+msgstr ""
+
+#: includes/admin/views/html-addon-panel.php:34
+#: resources/js/admin/product-editor/components/header-actions/index.js:165
+#: resources/js/admin/product-editor/components/header-actions/index.js:175
+msgid "Expand all"
+msgstr ""
+
+#: includes/admin/views/html-addon-panel.php:58
+msgid "Choose an add-on field to add to this group,"
+msgstr ""
+
+#: includes/admin/views/html-addon-panel.php:60
+msgid "or <a href=\"#\" class=\"wc-pao-import-addons\">click here</a> to import data."
+msgstr ""
+
+#: includes/admin/views/html-addon-panel.php:62
+msgid "Use add-ons to add free or paid options to this product."
+msgstr ""
+
+#: includes/admin/views/html-addon-panel.php:64
+msgid "Choose a field type to add below, or <a href=\"#\" class=\"wc-pao-import-addons\">click here</a> to import data."
+msgstr ""
+
+#: includes/admin/views/html-addon-panel.php:73
+msgid "Add field&hellip;"
+msgstr ""
+
+#: includes/admin/views/html-addon-panel.php:79
+msgid "Customer Defined Price"
+msgstr ""
+
+#: includes/admin/views/html-addon-panel.php:81
+#: includes/admin/views/html-addon.php:93
+#: resources/js/admin/product-editor/components/header-actions/index.js:136
+#: resources/js/admin/product-editor/components/header-actions/index.js:142
+#: resources/js/admin/product-editor/utils/get-addon-title-formats.js:18
+#: resources/js/admin/product-editor/utils/get-addon-type-label.js:24
+msgid "Heading"
+msgstr ""
+
+#: includes/admin/views/html-addon.php:9
+#: resources/js/admin/product-editor/utils/get-addon-type-label.js:14
+msgid "Multiple choice"
+msgstr ""
+
+#: includes/admin/views/html-addon.php:31
+msgid "Add-on title is too long. Please use up to 255 characters."
+msgstr ""
+
+#: includes/admin/views/html-addon.php:65
+msgid "Click to toggle"
+msgstr ""
+
+#: includes/admin/views/html-addon.php:79
+#: resources/js/admin/product-editor/components/form/index.js:62
+#: resources/js/admin/product-editor/components/form/types/checkboxes.js:41
+#: resources/js/admin/product-editor/components/form/types/custom-price.js:37
+#: resources/js/admin/product-editor/components/form/types/date-picker.js:37
+#: resources/js/admin/product-editor/components/form/types/file-upload.js:37
+#: resources/js/admin/product-editor/components/form/types/heading.js:34
+#: resources/js/admin/product-editor/components/form/types/long-text.js:40
+#: resources/js/admin/product-editor/components/form/types/multiple-choice.js:42
+#: resources/js/admin/product-editor/components/form/types/quantity.js:38
+#: resources/js/admin/product-editor/components/form/types/short-text.js:40
+msgid "Title"
+msgstr ""
+
+#: includes/admin/views/html-addon.php:88
+#: resources/js/admin/product-editor/components/form/types/checkboxes.js:50
+#: resources/js/admin/product-editor/components/form/types/custom-price.js:46
+#: resources/js/admin/product-editor/components/form/types/date-picker.js:46
+#: resources/js/admin/product-editor/components/form/types/file-upload.js:46
+#: resources/js/admin/product-editor/components/form/types/long-text.js:49
+#: resources/js/admin/product-editor/components/form/types/multiple-choice.js:51
+#: resources/js/admin/product-editor/components/form/types/quantity.js:47
+#: resources/js/admin/product-editor/components/form/types/short-text.js:49
+msgid "Title format"
+msgstr ""
+
+#: includes/admin/views/html-addon.php:92
+#: resources/js/admin/product-editor/utils/get-addon-title-formats.js:14
+msgid "Label"
+msgstr ""
+
+#: includes/admin/views/html-addon.php:94
+#: resources/js/admin/product-editor/utils/get-addon-title-formats.js:22
+msgid "Hide"
+msgstr ""
+
+#: includes/admin/views/html-addon.php:102
+#: resources/js/admin/product-editor/components/form/types/multiple-choice.js:64
+msgid "Display as"
+msgstr ""
+
+#: includes/admin/views/html-addon.php:107
+msgid "Radio Buttons"
+msgstr ""
+
+#: includes/admin/views/html-addon.php:108
+#: resources/js/admin/product-editor/utils/get-addon-display-options.js:22
+msgid "Images"
+msgstr ""
+
+#: includes/admin/views/html-addon.php:115
+#: resources/js/admin/product-editor/components/form/types/long-text.js:62
+#: resources/js/admin/product-editor/components/form/types/short-text.js:62
+msgid "Restriction"
+msgstr ""
+
+#: includes/admin/views/html-addon.php:119
+msgid "Any Text"
+msgstr ""
+
+#: includes/admin/views/html-addon.php:120
+#: resources/js/admin/product-editor/utils/get-addon-text-restrictions.js:18
+msgid "Only Letters"
+msgstr ""
+
+#: includes/admin/views/html-addon.php:121
+#: resources/js/admin/product-editor/utils/get-addon-text-restrictions.js:22
+msgid "Only Numbers"
+msgstr ""
+
+#: includes/admin/views/html-addon.php:122
+#: resources/js/admin/product-editor/utils/get-addon-text-restrictions.js:26
+msgid "Only Letters and Numbers"
+msgstr ""
+
+#: includes/admin/views/html-addon.php:123
+#: resources/js/admin/product-editor/utils/get-addon-text-restrictions.js:30
+msgid "Only Email Address"
+msgstr ""
+
+#: includes/admin/views/html-addon.php:133
+#: resources/js/admin/product-editor/components/form/types/checkboxes.js:66
+#: resources/js/admin/product-editor/components/form/types/date-picker.js:62
+#: resources/js/admin/product-editor/components/form/types/multiple-choice.js:80
+msgid "Require selection"
+msgstr ""
+
+#: includes/admin/views/html-addon.php:135
+#: resources/js/admin/product-editor/components/form/types/file-upload.js:62
+msgid "Require upload"
+msgstr ""
+
+#: includes/admin/views/html-addon.php:137
+#: resources/js/admin/product-editor/components/form/types/custom-price.js:62
+#: resources/js/admin/product-editor/components/form/types/long-text.js:81
+#: resources/js/admin/product-editor/components/form/types/quantity.js:63
+#: resources/js/admin/product-editor/components/form/types/short-text.js:81
+msgid "Require input"
+msgstr ""
+
+#: includes/admin/views/html-addon.php:145
+msgid "Add description"
+msgstr ""
+
+#: includes/admin/views/html-addon.php:158
+msgid "Add placeholder"
+msgstr ""
+
+#: includes/admin/views/html-addon.php:179
+msgid "Type"
+msgstr ""
+
+#: includes/admin/views/html-addon.php:180
+#: includes/admin/views/html-addon.php:262
+msgid "Choose how to calculate the price of this add-on: Apply a flat fee regardless of quantity, charge per quantity ordered, or charge a percentage of the total."
+msgstr ""
+
+#: includes/admin/views/html-addon.php:202
+msgid "Add Option"
+msgstr ""
+
+#: includes/admin/views/html-addon.php:248
+msgid "to"
+msgstr ""
+
+#: includes/admin/views/html-addon.php:249
+msgid "unlimited"
+msgstr ""
+
+#: includes/admin/views/html-addon.php:261
+#: resources/js/admin/product-editor/components/price/index.js:48
+msgid "Adjust price"
+msgstr ""
+
+#: includes/admin/views/html-global-admin-add.php:6
+msgid "Create add-ons group"
+msgstr ""
+
+#: includes/admin/views/html-global-admin-add.php:7
+msgid "Publish"
+msgstr ""
+
+#: includes/admin/views/html-global-admin-add.php:10
+msgid "Edit Add-on"
+msgstr ""
+
+#: includes/admin/views/html-global-admin-add.php:11
+msgid "Update"
+msgstr ""
+
+#: includes/admin/views/html-global-admin-add.php:18
+msgid "Create a group of global add-ons to add free or paid options to your products in bulk. You may optionally limit these add-ons to specific product categories."
+msgstr ""
+
+#: includes/admin/views/html-global-admin-add.php:19
+msgid "To <a href=\"%s\" target=\"_blank\">create add-ons for individual products</a>, navigate to the <strong>Product Data > Add-ons</strong> tab in the product editor."
+msgstr ""
+
+#: includes/admin/views/html-global-admin-add.php:29
+msgid "Name"
+msgstr ""
+
+#: includes/admin/views/html-global-admin-add.php:33
+msgid "Type a unique name to identify this global add-ons group. This will not be visible to customers."
+msgstr ""
+
+#: includes/admin/views/html-global-admin-add.php:38
+msgid "Product Categories"
+msgstr ""
+
+#: includes/admin/views/html-global-admin-add.php:41
+msgid "Choose categories&hellip;"
+msgstr ""
+
+#: includes/admin/views/html-global-admin-add.php:43
+msgid "Product categories"
+msgstr ""
+
+#: includes/admin/views/html-global-admin-add.php:54
+msgid "Use this option to assign this global add-ons group to specific product categories."
+msgstr ""
+
+#: includes/admin/views/html-global-admin-add.php:59
+msgid "Display Order"
+msgstr ""
+
+#: includes/admin/views/html-global-admin-add.php:63
+msgid "This number determines the position of this add-ons group relative to other groups in product pages. Groups with a lower <strong>Display Order</strong> are displayed higher in the product page. Add-ons <a href=\"%s\" target=\"_blank\">created for individual products</a> are displayed at order 10."
+msgstr ""
+
+#: includes/admin/views/html-global-admin.php:16
+#: resources/js/admin/product-editor/components/header-actions/index.js:46
+msgid "Add new"
+msgstr ""
+
+#: includes/admin/views/html-global-admin.php:27
+msgid "Use global add-ons to add free or paid options to your products in bulk."
+msgstr ""
+
+#: includes/admin/views/html-global-admin.php:28
+msgid "Create your first add-on"
+msgstr ""
+
+#: includes/admin/views/html-global-admin.php:29
+msgid "Learn more about add-ons"
+msgstr ""
+
+#: includes/api/class-wc-product-addons-store-api.php:104
+msgid "Addons data."
+msgstr ""
+
+#: includes/api/v2/class-wc-product-addons-api-v2-controller.php:122
+msgid "Global group ID"
+msgstr ""
+
+#: includes/api/v2/class-wc-product-addons-api-v2-controller.php:128
+msgid "Name of the global group"
+msgstr ""
+
+#: includes/api/v2/class-wc-product-addons-api-v2-controller.php:137
+msgid "Priority of the group"
+msgstr ""
+
+#: includes/api/v2/class-wc-product-addons-api-v2-controller.php:146
+msgid "Product categories this group applies to, or an empty array if it applies to all products"
+msgstr ""
+
+#: includes/api/v2/class-wc-product-addons-api-v2-controller.php:160
+msgid "Fields containing the add-ons and their options for the group."
+msgstr ""
+
+#: includes/api/v2/class-wc-product-addons-api-v2-controller.php:192
+msgid "Unique identifier for the add-on"
+msgstr ""
+
+#: includes/api/v2/class-wc-product-addons-api-v2-controller.php:199
+msgid "Name of the product add-on"
+msgstr ""
+
+#: includes/api/v2/class-wc-product-addons-api-v2-controller.php:208
+msgid "Format of the add-on title"
+msgstr ""
+
+#: includes/api/v2/class-wc-product-addons-api-v2-controller.php:218
+msgid "Status indicating if the add-on description is enabled"
+msgstr ""
+
+#: includes/api/v2/class-wc-product-addons-api-v2-controller.php:227
+msgid "Description of the add-on"
+msgstr ""
+
+#: includes/api/v2/class-wc-product-addons-api-v2-controller.php:236
+msgid "Status indicating if the add-on placeholder is enabled"
+msgstr ""
+
+#: includes/api/v2/class-wc-product-addons-api-v2-controller.php:245
+msgid "Placeholder text for the add-on, applicable for custom_text and custom_textarea add-on types"
+msgstr ""
+
+#: includes/api/v2/class-wc-product-addons-api-v2-controller.php:254
+msgid "Type of the add-on"
+msgstr ""
+
+#: includes/api/v2/class-wc-product-addons-api-v2-controller.php:270
+msgid "Display options for multiple_choice type add-ons"
+msgstr ""
+
+#: includes/api/v2/class-wc-product-addons-api-v2-controller.php:279
+msgid "Position of the add-on in the product"
+msgstr ""
+
+#: includes/api/v2/class-wc-product-addons-api-v2-controller.php:288
+msgid "Status indicating if the add-on is required"
+msgstr ""
+
+#: includes/api/v2/class-wc-product-addons-api-v2-controller.php:296
+msgid "Status indicating if min/max limits for price or text length are enabled"
+msgstr ""
+
+#: includes/api/v2/class-wc-product-addons-api-v2-controller.php:305
+msgid "Input restrictions for custom_text type add-ons"
+msgstr ""
+
+#: includes/api/v2/class-wc-product-addons-api-v2-controller.php:321
+msgid "Status indicating if the add-on adjusts the product price"
+msgstr ""
+
+#: includes/api/v2/class-wc-product-addons-api-v2-controller.php:330
+msgid "Type of price adjustment for the add-on"
+msgstr ""
+
+#: includes/api/v2/class-wc-product-addons-api-v2-controller.php:339
+msgid "Price of the add-on, if applicable (numeric string)"
+msgstr ""
+
+#: includes/api/v2/class-wc-product-addons-api-v2-controller.php:349
+msgid "Minimum allowed input for custom_text, custom_textarea, custom_price, and input_multiplier add-ons"
+msgstr ""
+
+#: includes/api/v2/class-wc-product-addons-api-v2-controller.php:360
+msgid "Maximum allowed input for custom_text, custom_textarea, custom_price, and input_multiplier add-ons"
+msgstr ""
+
+#: includes/api/v2/class-wc-product-addons-api-v2-controller.php:371
+msgid "List of options for multiple_choice and checkbox type add-ons"
+msgstr ""
+
+#: includes/api/v2/class-wc-product-addons-api-v2-controller.php:382
+msgid "Label for the add-on option"
+msgstr ""
+
+#: includes/api/v2/class-wc-product-addons-api-v2-controller.php:388
+msgid "Price of the add-on option, if applicable (numeric string)"
+msgstr ""
+
+#: includes/api/v2/class-wc-product-addons-api-v2-controller.php:398
+msgid "Type of price adjustment for the add-on option"
+msgstr ""
+
+#: includes/api/v2/class-wc-product-addons-api-v2-controller.php:405
+msgid "Image ID for the add-on option for image display type, or 0"
+msgstr ""
+
+#: includes/api/v2/class-wc-product-addons-api-v2-controller.php:475
+msgid "Add-on Group's Name parameter is required when creating Add-on Group."
+msgstr ""
+
+#: includes/api/v2/class-wc-product-addons-api-v2-controller.php:507
+msgid "Invalid add-on ID provided."
+msgstr ""
+
+#: includes/api/v2/class-wc-product-addons-api-v2-global-group.php:166
+msgid "Unable to delete group. Invalid global add-on group ID."
+msgstr ""
+
+#: includes/api/v2/class-wc-product-addons-api-v2-product-rest-api.php:87
+msgid "Status indicating if the global add-on are excluded from this product"
+msgstr ""
+
+#: includes/api/v2/class-wc-product-addons-api-v2-product-rest-api.php:97
+msgid "Add-ons assigned to this product"
+msgstr ""
+
+#. translators: %d product id.
+#: includes/api/v2/class-wc-product-addons-api-v2-product-rest-api.php:139
+msgid "Product with ID \"%d\" not found."
+msgstr ""
+
+#: includes/api/v2/class-wc-product-addons-api-v2-product-rest-api.php:164
+msgid "Product not found."
+msgstr ""
+
+#: includes/api/v2/class-wc-product-addons-api-v2-validation.php:58
+msgid "Add-on"
+msgstr ""
+
+#: includes/api/v2/class-wc-product-addons-api-v2-validation.php:75
+msgid "Global group"
+msgstr ""
+
+#. translators: %s object type.
+#: includes/api/v2/class-wc-product-addons-api-v2-validation.php:101
+msgid "Name required when creating %s."
+msgstr ""
+
+#. translators: %s object type.
+#: includes/api/v2/class-wc-product-addons-api-v2-validation.php:114
+msgid "%s name must be a string."
+msgstr ""
+
+#. translators: %s object type.
+#: includes/api/v2/class-wc-product-addons-api-v2-validation.php:128
+msgid "%s name can be maximum 255 characters long."
+msgstr ""
+
+#: includes/api/v2/class-wc-product-addons-api-v2-validation.php:160
+msgid "Array expected for fields."
+msgstr ""
+
+#. translators: %s field name.
+#: includes/api/v2/class-wc-product-addons-api-v2-validation.php:181
+msgid "\"%s\" is required"
+msgstr ""
+
+#. translators: %s field name.
+#: includes/api/v2/class-wc-product-addons-api-v2-validation.php:270
+msgid "Integer (or empty string) expected for \"%s\""
+msgstr ""
+
+#. translators: 1: min value, 2: max value.
+#: includes/api/v2/class-wc-product-addons-api-v2-validation.php:311
+msgid "Provided min value (%1$d) must be less than or equal to the max value (%2$d)."
+msgstr ""
+
+#: includes/api/v2/class-wc-product-addons-api-v2-validation.php:340
+msgid "Type must be defined when creating an Add-on."
+msgstr ""
+
+#: includes/api/v2/class-wc-product-addons-api-v2-validation.php:379
+msgid "Options can only be defined/set for \"Multiple Choice\" and \"Checkboxes\" add-on types."
+msgstr ""
+
+#: includes/api/v2/class-wc-product-addons-api-v2-validation.php:387
+msgid "\"Multiple Choice\" and \"Checkboxes\" add-on types require at lease one option."
+msgstr ""
+
+#: includes/api/v2/class-wc-product-addons-api-v2-validation.php:401
+msgid "Each \"option\" must have a \"label\" property defined."
+msgstr ""
+
+#. translators: %1$s flat fee addon price in order
+#: includes/class-wc-product-addons-cart.php:299
+msgctxt "flat fee addon price in order"
+msgid " (+ %1$s)"
+msgstr ""
+
+#. translators: %1$s addon price in order
+#: includes/class-wc-product-addons-cart.php:302
+msgctxt "addon price in order"
+msgid " (%1$s)"
+msgstr ""
+
+#. translators: %1$s custom addon price in order
+#: includes/class-wc-product-addons-cart.php:305
+msgctxt "custom addon price in order"
+msgid " (%1$s)"
+msgstr ""
+
+#. translators: %1$s flat fee addon price in cart
+#: includes/class-wc-product-addons-cart.php:777
+msgctxt "flat fee addon price in cart"
+msgid " (+ %1$s)"
+msgstr ""
+
+#. translators: %1$s custom addon price in cart
+#: includes/class-wc-product-addons-cart.php:783
+msgctxt "custom price addon price in cart"
+msgid " (%1$s)"
+msgstr ""
+
+#. translators: %1$s quantity based addon price in cart
+#: includes/class-wc-product-addons-cart.php:788
+msgctxt "quantity based addon price in cart"
+msgid " (%1$s)"
+msgstr ""
+
+#. translators: %1$s percentage based addon price in cart
+#: includes/class-wc-product-addons-cart.php:796
+msgctxt "percentage based addon price in cart"
+msgid " (%1$s)"
+msgstr ""
+
+#: includes/class-wc-product-addons-compatibility.php:66
+#: includes/class-wc-product-addons-compatibility.php:75
+msgid "Foul!"
+msgstr ""
+
+#: includes/class-wc-product-addons-compatibility.php:194
+msgid "Product Bundles"
+msgstr ""
+
+#: includes/class-wc-product-addons-compatibility.php:195
+msgid "Woo Product Bundles"
+msgstr ""
+
+#. translators: %1$s: Extension, %2$s: Extension URL, %3$s: Extension full name, %4$s: Required version.
+#: includes/class-wc-product-addons-compatibility.php:198
+#: includes/class-wc-product-addons-compatibility.php:210
+msgid "The installed version of <strong>%1$s</strong> is not supported by <strong>Product Add-ons</strong>. Please update <a href=\"%2$s\" target=\"_blank\">%3$s</a> to version <strong>%4$s</strong> or higher."
+msgstr ""
+
+#: includes/class-wc-product-addons-compatibility.php:207
+msgid "Composite Products"
+msgstr ""
+
+#: includes/class-wc-product-addons-compatibility.php:208
+msgid "Woo Composite Products"
+msgstr ""
+
+#: includes/class-wc-product-addons-compatibility.php:220
+msgid "Woo Blocks"
+msgstr ""
+
+#. translators: %1$s: Plugin name, %2$s: Plugin URL, %3$s: Plugin name full, %4$s: Plugin version
+#: includes/class-wc-product-addons-compatibility.php:223
+msgid "The installed version of <strong>%1$s</strong> does not support <strong>Product Add-ons</strong>. Please update <a href=\"%2$s\" target=\"_blank\">%3$s</a> to version <strong>%4$s</strong> or higher."
+msgstr ""
+
+#: includes/class-wc-product-addons-display.php:114
+msgid "Please choose an option."
+msgstr ""
+
+#: includes/class-wc-product-addons-display.php:115
+msgid "Please enter some text in this field."
+msgstr ""
+
+#: includes/class-wc-product-addons-display.php:116
+msgid "Please enter a number in this field."
+msgstr ""
+
+#: includes/class-wc-product-addons-display.php:117
+msgid "Please upload a file."
+msgstr ""
+
+#: includes/class-wc-product-addons-display.php:118
+msgid "Please enter letters only."
+msgstr ""
+
+#: includes/class-wc-product-addons-display.php:119
+msgid "Please enter numbers only."
+msgstr ""
+
+#: includes/class-wc-product-addons-display.php:120
+msgid "Please enter letters and numbers only."
+msgstr ""
+
+#: includes/class-wc-product-addons-display.php:121
+msgid "Please enter a valid email address."
+msgstr ""
+
+#. translators: %1$s min number of characters
+#: includes/class-wc-product-addons-display.php:123
+msgid "Please enter at least %1$s characters."
+msgstr ""
+
+#. translators: %1$s max number of characters
+#: includes/class-wc-product-addons-display.php:125
+msgid "Please enter up to %1$s characters."
+msgstr ""
+
+#. translators: %1$s min number
+#: includes/class-wc-product-addons-display.php:127
+msgid "Please enter %1$s or more."
+msgstr ""
+
+#. translators: %1$s max number
+#: includes/class-wc-product-addons-display.php:129
+msgid "Please enter %1$s or less."
+msgstr ""
+
+#: includes/class-wc-product-addons-display.php:130
+msgid "Subtotal"
+msgstr ""
+
+#. translators: %s remaining characters
+#: includes/class-wc-product-addons-display.php:132
+msgid "%s characters remaining"
+msgstr ""
+
+#: includes/class-wc-product-addons-display.php:369
+msgid "Select options"
+msgstr ""
+
+#. translators: %1$s key
+#: includes/class-wc-product-addons-tracker.php:375
+msgid "Invalid key &quot;%1$s&quot; passed to get_reusable_data."
+msgstr ""
+
+#: includes/compatibility/modules/class-wc-product-addons-product-editor-compatibility.php:81
+msgid "Global add-ons"
+msgstr ""
+
+#: includes/compatibility/modules/class-wc-product-addons-product-editor-compatibility.php:91
+msgid "Apply global add-ons to this product"
+msgstr ""
+
+#: includes/compatibility/modules/class-wc-product-addons-product-editor-compatibility.php:95
+msgid "Manage add-ons for multiple products using <a href=\"%s\">global add-ons</a>."
+msgstr ""
+
+#: includes/compatibility/modules/class-wc-product-addons-product-editor-compatibility.php:110
+msgid "Custom add-ons"
+msgstr ""
+
+#: includes/compatibility/modules/class-wc-product-addons-product-editor-compatibility.php:111
+msgid "Add paid or free options to this product."
+msgstr ""
+
+#. translators: %s Addon name
+#: includes/fields/class-wc-product-addons-field-custom.php:24
+#: includes/fields/class-wc-product-addons-field-datepicker.php:57
+#: includes/fields/class-wc-product-addons-field-file-upload.php:29
+#: includes/fields/class-wc-product-addons-field-list.php:15
+#: includes/fields/class-wc-product-addons-field-select.php:14
+msgid "\"%s\" is a required field."
+msgstr ""
+
+#. translators: 1 Addon name 2 Minimum amount
+#: includes/fields/class-wc-product-addons-field-custom.php:34
+msgid "The minimum characters required for \"%1$s\" is %2$s."
+msgstr ""
+
+#. translators: 1 Addon name 2 Maximum amount
+#: includes/fields/class-wc-product-addons-field-custom.php:39
+msgid "The maximum allowed characters for \"%1$s\" is %2$s."
+msgstr ""
+
+#. translators: 1 Addon name 2 minimum amount
+#: includes/fields/class-wc-product-addons-field-custom.php:47
+msgid "The minimum amount required for \"%1$s\" is %2$s."
+msgstr ""
+
+#. translators: 1 Addon name 2 Maximum amount
+#: includes/fields/class-wc-product-addons-field-custom.php:54
+msgid "The maximum allowed amount for \"%1$s\" is %2$s."
+msgstr ""
+
+#. translators: %s Addon name
+#: includes/fields/class-wc-product-addons-field-custom.php:67
+msgid "Please enter a value greater than 0 for \"%s\"."
+msgstr ""
+
+#: includes/fields/class-wc-product-addons-field-file-upload.php:35
+msgid "Filesize exceeds the limit."
+msgstr ""
+
+#: includes/groups/class-wc-product-addons-groups.php:52
+msgid "Unable to retrieve data. Invalid global add ons group or product ID."
+msgstr ""
+
+#: includes/groups/class-wc-product-addons-groups.php:84
+msgid "Unable to delete group. Invalid global add ons group ID."
+msgstr ""
+
+#. translators: %s WC download URL link.
+#: woocommerce-product-addons.php:43
+msgid "Product Add-ons requires WooCommerce to be installed and active. You can download %s here."
+msgstr ""
+
+#. translators: %1$s: Version %, %2$s: Update PHP doc URL
+#: woocommerce-product-addons.php:100
+msgid "Woo Product Add-Ons requires at least PHP <strong>%1$s</strong>. Learn <a href=\"%2$s\">how to update PHP</a>."
+msgstr ""
+
+#: woocommerce-product-addons.php:268
+msgid "Documentation"
+msgstr ""
+
+#: woocommerce-product-addons.php:269
+msgid "Support"
+msgstr ""
+
+#: woocommerce-product-addons.php:284
+msgid "Thank you for installing Woo Product Add-ons."
+msgstr ""
+
+#: woocommerce-product-addons.php:286
+msgid "Ready to make your products unique? Use <a href=\"%1$s\" target=\"_blank\">global add-ons</a> to add free or paid options to multiple products, or create custom <a href=\"%2$s\" target=\"_blank\">add-ons for individual products</a>."
+msgstr ""
+
+#: woocommerce-product-addons.php:289
+msgid "Create a global add-on"
+msgstr ""
+
+#: woocommerce-product-addons.php:290
+msgid "or"
+msgstr ""
+
+#: woocommerce-product-addons.php:291
+msgid "add options to an existing product"
+msgstr ""
+
+#: resources/js/admin/product-editor/components/character-limit/index.js:72
+msgid "Minimum character length"
+msgstr ""
+
+#: resources/js/admin/product-editor/components/character-limit/index.js:97
+msgid "Maximum character length"
+msgstr ""
+
+#: resources/js/admin/product-editor/components/character-limit/index.js:112
+#: resources/js/admin/product-editor/components/price-limit/index.js:118
+#: resources/js/admin/product-editor/components/quantity-limit/index.js:110
+msgid "Unlimited"
+msgstr ""
+
+#: resources/js/admin/product-editor/components/description/index.js:26
+msgid "Include description"
+msgstr ""
+
+#: resources/js/admin/product-editor/components/description/index.js:41
+msgid "Description"
+msgstr ""
+
+#: resources/js/admin/product-editor/components/description/index.js:42
+msgid "Add a description"
+msgstr ""
+
+#: resources/js/admin/product-editor/components/header-actions/index.js:76
+#: resources/js/admin/product-editor/components/header-actions/index.js:85
+#: resources/js/admin/product-editor/utils/get-addon-type-label.js:16
+msgid "Short text"
+msgstr ""
+
+#: resources/js/admin/product-editor/components/header-actions/index.js:88
+#: resources/js/admin/product-editor/components/header-actions/index.js:97
+#: resources/js/admin/product-editor/utils/get-addon-type-label.js:17
+msgid "Long text"
+msgstr ""
+
+#: resources/js/admin/product-editor/components/header-actions/index.js:100
+#: resources/js/admin/product-editor/components/header-actions/index.js:109
+#: resources/js/admin/product-editor/utils/get-addon-type-label.js:18
+msgid "File upload"
+msgstr ""
+
+#: resources/js/admin/product-editor/components/header-actions/index.js:112
+#: resources/js/admin/product-editor/components/header-actions/index.js:121
+#: resources/js/admin/product-editor/utils/get-addon-type-label.js:19
+msgid "Customer-defined price"
+msgstr ""
+
+#: resources/js/admin/product-editor/components/header-actions/index.js:159
+#: resources/js/admin/product-editor/components/list-item/index.js:71
+msgid "Select an action"
+msgstr ""
+
+#: resources/js/admin/product-editor/components/header-actions/index.js:181
+#: resources/js/admin/product-editor/components/header-actions/index.js:191
+msgid "Collapse all"
+msgstr ""
+
+#: resources/js/admin/product-editor/components/header-actions/index.js:201
+#: resources/js/admin/product-editor/components/header-actions/index.js:211
+msgid "Copy add-ons"
+msgstr ""
+
+#: resources/js/admin/product-editor/components/header-actions/index.js:218
+#: resources/js/admin/product-editor/components/header-actions/index.js:228
+msgid "Paste add-ons"
+msgstr ""
+
+#. Translators: Addon ID
+#: resources/js/admin/product-editor/components/list-item/index.js:78
+#: resources/js/admin/product-editor/components/list-item/index.js:120
+msgid "Add-On Id: %s"
+msgstr ""
+
+#: resources/js/admin/product-editor/components/list-item/index.js:93
+#: resources/js/admin/product-editor/components/options-list-item/index.js:114
+msgid "Move up"
+msgstr ""
+
+#: resources/js/admin/product-editor/components/list-item/index.js:107
+#: resources/js/admin/product-editor/components/options-list-item/index.js:131
+msgid "Move down"
+msgstr ""
+
+#: resources/js/admin/product-editor/components/list-item/index.js:159
+msgid "Untitled"
+msgstr ""
+
+#: resources/js/admin/product-editor/components/list-item/index.js:169
+msgid "Edit the add-on"
+msgstr ""
+
+#: resources/js/admin/product-editor/components/list-item/index.js:180
+#: resources/js/admin/product-editor/components/options-list-item/index.js:277
+msgid "Remove add-on"
+msgstr ""
+
+#: resources/js/admin/product-editor/components/options-list-item/index.js:100
+#: resources/js/admin/product-editor/components/options-list-item/index.js:171
+msgid "Remove image"
+msgstr ""
+
+#: resources/js/admin/product-editor/components/options-list/index.js:121
+#: resources/js/admin/product-editor/components/price/index.js:65
+msgid "Price type"
+msgstr ""
+
+#: resources/js/admin/product-editor/components/options-list/index.js:125
+msgid "Apply a flat fee, charge per quantity ordered or charge a percentage of the total price."
+msgstr ""
+
+#: resources/js/admin/product-editor/components/options-list/index.js:142
+msgid "Add option"
+msgstr ""
+
+#: resources/js/admin/product-editor/components/options-list/index.js:143
+msgid "+ Add option"
+msgstr ""
+
+#: resources/js/admin/product-editor/components/placeholder/index.js:26
+msgid "Include placeholder"
+msgstr ""
+
+#: resources/js/admin/product-editor/components/placeholder/index.js:41
+msgid "Placeholder"
+msgstr ""
+
+#: resources/js/admin/product-editor/components/placeholder/index.js:42
+msgid "Add a placeholder"
+msgstr ""
+
+#: resources/js/admin/product-editor/components/price-limit/index.js:83
+msgid "Minimum price"
+msgstr ""
+
+#: resources/js/admin/product-editor/components/price-limit/index.js:106
+msgid "Maximum price"
+msgstr ""
+
+#: resources/js/admin/product-editor/components/quantity-limit/index.js:70
+msgid "Minimum quantity"
+msgstr ""
+
+#: resources/js/admin/product-editor/components/quantity-limit/index.js:95
+msgid "Maximum quantity"
+msgstr ""
+
+#. translators: %s: error message
+#: resources/js/admin/product-editor/hooks/use-addon-validation.js:38
+msgid "An error occurred while saving add-ons: %s"
+msgstr ""
+
+#: resources/js/admin/product-editor/hooks/use-product-addons.js:124
+msgid "Please save the product before copying add-ons."
+msgstr ""
+
+#. translators: placeholder %1$s: the number of exported add-ons.
+#: resources/js/admin/product-editor/hooks/use-product-addons.js:141
+msgid "%1$s add-on was successfully copied to your clipboard."
+msgid_plural "%1$s add-ons were successfully copied to your clipboard."
+msgstr[0] ""
+msgstr[1] ""
+
+#: resources/js/admin/product-editor/hooks/use-product-addons.js:164
+msgid "Use this field to paste the add-ons you previously copied."
+msgstr ""
+
+#. translators: %1$s: the number of imported add-ons.
+#: resources/js/admin/product-editor/hooks/use-product-addons.js:188
+msgid "%1$s addon was successfully pasted."
+msgid_plural "%1$s addons were successfully pasted."
+msgstr[0] ""
+msgstr[1] ""
+
+#: resources/js/admin/product-editor/utils/get-addon-display-options.js:18
+msgid "Radio buttons"
+msgstr ""
+
+#: resources/js/admin/product-editor/utils/get-addon-price-helper-text.js:15
+#: resources/js/admin/product-editor/utils/get-addon-price-helper-text.js:31
+msgid "The add-on price will apply only once, regardless of the product quantity ordered."
+msgstr ""
+
+#: resources/js/admin/product-editor/utils/get-addon-price-helper-text.js:20
+msgid "The add-on price will be multiplied by the product quantity."
+msgstr ""
+
+#: resources/js/admin/product-editor/utils/get-addon-price-helper-text.js:25
+msgid "The add-on price will be calculated as a percentage of the total product price."
+msgstr ""
+
+#: resources/js/admin/product-editor/utils/get-addon-price-types.js:18
+msgid "Quantity based"
+msgstr ""
+
+#: resources/js/admin/product-editor/utils/get-addon-price-types.js:22
+msgid "Percentage based"
+msgstr ""
+
+#: resources/js/admin/product-editor/utils/get-addon-text-restrictions.js:14
+msgid "Any text"
+msgstr ""
+
+#: resources/js/admin/product-editor/utils/get-addon-type-label.js:25
+msgid "Date picker"
+msgstr ""
+
+#: resources/js/admin/product-editor/utils/get-addon-type-label.js:31
+msgid "N/A"
+msgstr ""
+
+#: resources/js/admin/product-editor/utils/paste.js:31
+#: resources/js/admin/product-editor/utils/paste.js:61
+msgid "Could not paste add-ons. Please review the string you pasted and try again."
+msgstr ""
+
+#: resources/js/admin/product-editor/utils/paste.js:42
+msgid "Could not paste add-ons. In addon #%1$s, the following error occurred: %2$s"
+msgstr ""
+
+#: resources/js/admin/product-editor/blocks/product-addons/block.json
+msgctxt "block title"
+msgid "PAO Addons List"
+msgstr ""
+
+#: resources/js/admin/product-editor/blocks/product-addons/block.json
+msgctxt "block description"
+msgid "Show add-ons."
+msgstr ""
