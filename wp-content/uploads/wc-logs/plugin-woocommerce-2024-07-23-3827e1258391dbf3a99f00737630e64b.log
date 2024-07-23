@@ -1,0 +1,5 @@
+2024-07-23T17:15:04+00:00 INFO Payment gateway enabled: "PagBank Pix"
+2024-07-23T17:15:23+00:00 INFO Payment gateway enabled: "PagBank Boleto"
+2024-07-23T17:15:28+00:00 INFO Payment gateway enabled: "PagBank Cartão de Crédito"
+2024-07-23T17:34:12+00:00 INFO Payment gateway enabled: "Transferência bancária"
+2024-07-23T17:35:32+00:00 INFO Payment gateway enabled: "PagSeguro"

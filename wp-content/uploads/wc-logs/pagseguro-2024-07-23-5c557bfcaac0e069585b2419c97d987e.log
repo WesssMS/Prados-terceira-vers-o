@@ -1,0 +1,90 @@
+2024-07-23T17:36:07+00:00 NOTICE Requesting token for order 27 with the following data: <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<checkout>
+  <currency>BRL</currency>
+  <reference><![CDATA[WC-27]]></reference>
+  <sender>
+    <email><![CDATA[wermeson.blucomet@gmail.com]]></email>
+    <documents>
+      <document>
+        <type>CPF</type>
+        <value>06814984393</value>
+      </document>
+    </documents>
+    <name><![CDATA[wermeson soares]]></name>
+    <phone>
+      <areaCode>85</areaCode>
+      <number>985892221</number>
+    </phone>
+  </sender>
+  <shipping>
+    <type>3</type>
+    <address>
+      <street><![CDATA[Rua Joana]]></street>
+      <number>256</number>
+      <postalCode>62785000</postalCode>
+      <city><![CDATA[Acarape]]></city>
+      <state>CE</state>
+      <country>BRA</country>
+    </address>
+    <cost>0</cost>
+  </shipping>
+  <items>
+    <item>
+      <id>1</id>
+      <description><![CDATA[teste]]></description>
+      <amount>1.00</amount>
+      <quantity>3</quantity>
+    </item>
+  </items>
+  <redirectURL><![CDATA[https://wess.blog/finalizar-compra/order-received/27/?key=wc_order_n3gBoWg6dKxKP]]></redirectURL>
+  <notificationURL><![CDATA[https://wess.blog/wc-api/WC_PagSeguro_Gateway/]]></notificationURL>
+  <maxUses>1</maxUses>
+  <maxAge>120</maxAge>
+</checkout>
+ CONTEXT: {"_legacy":true}
+2024-07-23T17:36:07+00:00 NOTICE PagSeguro Payment Token created with success! The Token is: 2DEA49A2C3C38BD9943BFFAAD787DB75 CONTEXT: {"_legacy":true}
+2024-07-23T18:05:00+00:00 NOTICE Requesting token for order 30 with the following data: <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<checkout>
+  <currency>BRL</currency>
+  <reference><![CDATA[WC-30]]></reference>
+  <sender>
+    <email><![CDATA[wermeson.digietal@gmail.com]]></email>
+    <documents>
+      <document>
+        <type>CPF</type>
+        <value>06814984393</value>
+      </document>
+    </documents>
+    <name><![CDATA[wermeson soares]]></name>
+    <phone>
+      <areaCode>85</areaCode>
+      <number>985892221</number>
+    </phone>
+  </sender>
+  <shipping>
+    <type>3</type>
+    <address>
+      <street><![CDATA[Rua Joana]]></street>
+      <number>256</number>
+      <postalCode>63785000</postalCode>
+      <city><![CDATA[Acarape]]></city>
+      <state>CE</state>
+      <country>BRA</country>
+    </address>
+    <cost>0</cost>
+  </shipping>
+  <items>
+    <item>
+      <id>1</id>
+      <description><![CDATA[teste]]></description>
+      <amount>1.00</amount>
+      <quantity>1</quantity>
+    </item>
+  </items>
+  <redirectURL><![CDATA[https://wess.blog/finalizar-compra/order-received/30/?key=wc_order_Eo7clvJvEeRjz]]></redirectURL>
+  <notificationURL><![CDATA[https://wess.blog/wc-api/WC_PagSeguro_Gateway/]]></notificationURL>
+  <maxUses>1</maxUses>
+  <maxAge>120</maxAge>
+</checkout>
+ CONTEXT: {"_legacy":true}
+2024-07-23T18:05:01+00:00 NOTICE PagSeguro Payment Token created with success! The Token is: A1D3FA39B1B1A84774B02FA1BC2CAF50 CONTEXT: {"_legacy":true}

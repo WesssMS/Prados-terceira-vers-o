@@ -1,0 +1,20 @@
+2024-07-23T17:13:07+00:00 NOTICE OAUTH_URL: https://connect.sandbox.pagseguro.uol.com.br/oauth2/authorize?scope=payments.read+payments.create+payments.refund&response_type=code&client_id=fa1553af-5f0c-4ff2-92c3-a0dd8984b6a1&redirect_uri=https%3A%2F%2Fwess.blog%2Fwp-admin%2Fadmin-ajax.php%3Faction%3Dpagbank_woocommerce_oauth_callback%26environment%3Dsandbox&state=dfb5798475&code_challenge=uWM_R9Z7r11awlbKsby5o4JUXHLLWKcY6yUd_-4Fy9M&code_challenge_method=S256 CONTEXT: {"_legacy":true}
+2024-07-23T17:13:07+00:00 NOTICE OAUTH CODE VERIFIER: uOyopoTLWd8rhEai275i9QyJwIX45iigCWNCjgSmaoHGkh-K7Bb6FWHjBQ CONTEXT: {"_legacy":true}
+2024-07-23T17:13:30+00:00 NOTICE OAUTH_URL: https://connect.pagseguro.uol.com.br/oauth2/authorize?scope=payments.read+payments.create+payments.refund&response_type=code&client_id=31241905-5426-4f88-a140-4416a2cab404&redirect_uri=https%3A%2F%2Fwess.blog%2Fwp-admin%2Fadmin-ajax.php%3Faction%3Dpagbank_woocommerce_oauth_callback%26environment%3Dproduction&state=dfb5798475&code_challenge=0h1nVco4O9AV-TtbLdC7_2TEyOsS9SNn-ZDNUgTEfas&code_challenge_method=S256 CONTEXT: {"_legacy":true}
+2024-07-23T17:13:30+00:00 NOTICE OAUTH CODE VERIFIER: yoZr4CZ2UfFBnKd5NIbSLsKRbdglyfvYNXghx5coc4Xr08hSYdghzZIx9A CONTEXT: {"_legacy":true}
+2024-07-23T17:14:59+00:00 NOTICE REQUEST BEGINS CONTEXT: {"_legacy":true}
+2024-07-23T17:14:59+00:00 NOTICE REQUEST URL: https://api.pagseguro.com/public-keys CONTEXT: {"_legacy":true}
+2024-07-23T17:14:59+00:00 NOTICE REQUEST BODY: {"type":"card"} CONTEXT: {"_legacy":true}
+2024-07-23T17:14:59+00:00 NOTICE RESPONSE CODE: 200 CONTEXT: {"_legacy":true}
+2024-07-23T17:14:59+00:00 NOTICE RESPONSE BODY: {"public_key":"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtsTgcWN9p7uvix+H3Bk85A0pKB7yR1XzQCcDghjYLJMdK3DQQfplvcKXm/EBAy+6nqjknna1QAgUbQhj8+nV0OABiY8PwbK9NS51AUXVu4Amo7GhsSLtbKJ+G5WaGIvedbzoiPyNTzniIoS+Xl4ctLp3+0BLQiwbySEzzKyesTO+5q1/rEP1eSHdV5pjjNwtREZIBDRN2i0cCNsQB2kELf5CSPI8ci4QDLgKsTm48T4f0EjSIsSedqJPXQfBKVLQfpkQoFd8E92cxUooEHNBRJg+LWfk++aNKkPWaosSw3B68nXJemJOi7HTydFZ+nW16dbpokL4OG6+E6jFQn7v2QIDAQAB","created_at":1721746728994} CONTEXT: {"_legacy":true}
+2024-07-23T17:14:59+00:00 NOTICE REQUEST ENDS
+ CONTEXT: {"_legacy":true}
+2024-07-23T17:15:13+00:00 NOTICE OAUTH_URL: https://connect.sandbox.pagseguro.uol.com.br/oauth2/authorize?scope=payments.read+payments.create+payments.refund&response_type=code&client_id=fa1553af-5f0c-4ff2-92c3-a0dd8984b6a1&redirect_uri=https%3A%2F%2Fwess.blog%2Fwp-admin%2Fadmin-ajax.php%3Faction%3Dpagbank_woocommerce_oauth_callback%26environment%3Dsandbox&state=dfb5798475&code_challenge=85kIVLyrC0XfFhYPhXxM6WuAnoLENQI-_FLCkCmcNsc&code_challenge_method=S256 CONTEXT: {"_legacy":true}
+2024-07-23T17:15:13+00:00 NOTICE OAUTH CODE VERIFIER: DN2X6PC2vo1mHWBsu-NCoyE4I5mfEcW-4SQBa68apDX3wtAktlx0lHc9TQ CONTEXT: {"_legacy":true}
+2024-07-23T17:15:18+00:00 NOTICE REQUEST BEGINS CONTEXT: {"_legacy":true}
+2024-07-23T17:15:18+00:00 NOTICE REQUEST URL: https://sandbox.api.pagseguro.com/public-keys CONTEXT: {"_legacy":true}
+2024-07-23T17:15:18+00:00 NOTICE REQUEST BODY: {"type":"card"} CONTEXT: {"_legacy":true}
+2024-07-23T17:15:19+00:00 NOTICE RESPONSE CODE: 200 CONTEXT: {"_legacy":true}
+2024-07-23T17:15:19+00:00 NOTICE RESPONSE BODY: {"public_key":"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAr+ZqgD892U9/HXsa7XqBZUayPquAfh9xx4iwUbTSUAvTlmiXFQNTp0Bvt/5vK2FhMj39qSv1zi2OuBjvW38q1E374nzx6NNBL5JosV0+SDINTlCG0cmigHuBOyWzYmjgca+mtQu4WczCaApNaSuVqgb8u7Bd9GCOL4YJotvV5+81frlSwQXralhwRzGhj/A57CGPgGKiuPT+AOGmykIGEZsSD9RKkyoKIoc0OS8CPIzdBOtTQCIwrLn2FxI83Clcg55W8gkFSOS6rWNbG5qFZWMll6yl02HtunalHmUlRUL66YeGXdMDC2PuRcmZbGO5a/2tbVppW6mfSWG3NPRpgwIDAQAB","created_at":1577836800000} CONTEXT: {"_legacy":true}
+2024-07-23T17:15:19+00:00 NOTICE REQUEST ENDS
+ CONTEXT: {"_legacy":true}
