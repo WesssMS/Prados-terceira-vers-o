@@ -1,0 +1,333 @@
+2024-07-22T22:41:42+00:00 ERROR Message: JSON parse error: Instantiation of [simple type, class com.mercadolibre.mpheimdall_ag_transaction.domain.entity.payment.PaymentEntity] value failed for JSON property notification_url due to missing (therefore NULL) value for creator parameter notificationUrl which is a non-nullable type \n\n\nStackstrace: #0 C:\xampp\htdocs\projeto\prados3.0\wp-content\plugins\woocommerce-mercadopago\packages\sdk\src\Common\AbstractEntity.php(222): MercadoPago\PP\Sdk\Common\Manager->handleResponse(Object(MercadoPago\PP\Sdk\HttpClient\Response), 'post')
+#1 C:\xampp\htdocs\projeto\prados3.0\wp-content\plugins\woocommerce-mercadopago\packages\sdk\src\Entity\Payment\Payment.php(363): MercadoPago\PP\Sdk\Common\AbstractEntity->save()
+#2 C:\xampp\htdocs\projeto\prados3.0\wp-content\plugins\woocommerce-mercadopago\src\Transactions\AbstractPaymentTransaction.php(37): MercadoPago\PP\Sdk\Entity\Payment\Payment->save()
+#3 C:\xampp\htdocs\projeto\prados3.0\wp-content\plugins\woocommerce-mercadopago\src\Gateways\TicketGateway.php(312): MercadoPago\Woocommerce\Transactions\AbstractPaymentTransaction->createPayment()
+#4 C:\xampp\htdocs\projeto\prados3.0\wp-content\plugins\woocommerce\src\StoreApi\Legacy.php(54): MercadoPago\Woocommerce\Gateways\TicketGateway->process_payment(1157)
+#5 C:\xampp\htdocs\projeto\prados3.0\wp-includes\class-wp-hook.php(324): Automattic\WooCommerce\StoreApi\Legacy->process_legacy_payment(Object(Automattic\WooCommerce\StoreApi\Payments\PaymentContext), Object(Automattic\WooCommerce\StoreApi\Payments\PaymentResult))
+#6 C:\xampp\htdocs\projeto\prados3.0\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\projeto\prados3.0\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\projeto\prados3.0\wp-content\plugins\woocommerce\src\StoreApi\Utilities\CheckoutTrait.php(83): do_action_ref_array('woocommerce_res...', Array)
+#9 C:\xampp\htdocs\projeto\prados3.0\wp-content\plugins\woocommerce\src\StoreApi\Routes\V1\Checkout.php(262): Automattic\WooCommerce\StoreApi\Routes\V1\Checkout->process_payment(Object(WP_REST_Request), Object(Automattic\WooCommerce\StoreApi\Payments\PaymentResult))
+#10 C:\xampp\htdocs\projeto\prados3.0\wp-content\plugins\woocommerce\src\StoreApi\Routes\V1\AbstractRoute.php(121): Automattic\WooCommerce\StoreApi\Routes\V1\Checkout->get_route_post_response(Object(WP_REST_Request))
+#11 C:\xampp\htdocs\projeto\prados3.0\wp-content\plugins\woocommerce\src\StoreApi\Routes\V1\Checkout.php(135): Automattic\WooCommerce\StoreApi\Routes\V1\AbstractRoute->get_response_by_request_method(Object(WP_REST_Request))
+#12 C:\xampp\htdocs\projeto\prados3.0\wp-includes\rest-api\class-wp-rest-server.php(1230): Automattic\WooCommerce\StoreApi\Routes\V1\Checkout->get_response(Object(WP_REST_Request))
+#13 C:\xampp\htdocs\projeto\prados3.0\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wc/store/v1/ch...', Array, NULL)
+#14 C:\xampp\htdocs\projeto\prados3.0\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#15 C:\xampp\htdocs\projeto\prados3.0\wp-includes\rest-api.php(420): WP_REST_Server->serve_request('/wc/store/v1/ch...')
+#16 C:\xampp\htdocs\projeto\prados3.0\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#17 C:\xampp\htdocs\projeto\prados3.0\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#18 C:\xampp\htdocs\projeto\prados3.0\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#19 C:\xampp\htdocs\projeto\prados3.0\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#20 C:\xampp\htdocs\projeto\prados3.0\wp-includes\class-wp.php(813): WP->parse_request('')
+#21 C:\xampp\htdocs\projeto\prados3.0\wp-includes\functions.php(1336): WP->main('')
+#22 C:\xampp\htdocs\projeto\prados3.0\wp-blog-header.php(16): wp()
+#23 C:\xampp\htdocs\projeto\prados3.0\index.php(17): require('C:\\xampp\\htdocs...')
+#24 {main} \n\n\n - Context: {
+    "\u0000*\u0000id": 1157,
+    "\u0000*\u0000data": {
+        "parent_id": 0,
+        "status": "pending",
+        "currency": "BRL",
+        "version": "9.1.2",
+        "prices_include_tax": false,
+        "date_created": {
+            "date": "2024-07-22 19:40:50.000000",
+            "timezone_type": 3,
+            "timezone": "America\/Sao_Paulo"
+        },
+        "date_modified": {
+            "date": "2024-07-22 19:41:11.000000",
+            "timezone_type": 3,
+            "timezone": "America\/Sao_Paulo"
+        },
+        "discount_total": "0",
+        "discount_tax": "0",
+        "shipping_total": "0",
+        "shipping_tax": "0",
+        "cart_tax": "0",
+        "total": "470.00",
+        "total_tax": "0",
+        "customer_id": 1,
+        "order_key": "wc_order_VYrJlCabMtEGq",
+        "billing": {
+            "first_name": "teste",
+            "last_name": "teste",
+            "company": "",
+            "address_1": "teste",
+            "address_2": "",
+            "city": "teste",
+            "state": "CE",
+            "postcode": "62785-000",
+            "country": "BR",
+            "email": "wermeson.blucomet@gmail.com",
+            "phone": ""
+        },
+        "shipping": {
+            "first_name": "teste",
+            "last_name": "teste",
+            "company": "",
+            "address_1": "teste",
+            "address_2": "",
+            "city": "teste",
+            "state": "CE",
+            "postcode": "62785-000",
+            "country": "BR",
+            "phone": ""
+        },
+        "payment_method": "woo-mercado-pago-ticket",
+        "payment_method_title": "Boleto e lotérica",
+        "transaction_id": "",
+        "customer_ip_address": "::1",
+        "customer_user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/126.0.0.0 Safari\/537.36",
+        "created_via": "store-api",
+        "customer_note": "",
+        "date_completed": null,
+        "date_paid": null,
+        "cart_hash": "2edf346b70ff618919786b08826cf002",
+        "order_stock_reduced": false,
+        "download_permissions_granted": false,
+        "new_order_email_sent": false,
+        "recorded_sales": false,
+        "recorded_coupon_usage_counts": true
+    },
+    "\u0000*\u0000changes": [],
+    "\u0000*\u0000object_read": true,
+    "\u0000*\u0000object_type": "order",
+    "\u0000*\u0000extra_data": [],
+    "\u0000*\u0000default_data": {
+        "parent_id": 0,
+        "status": "",
+        "currency": "",
+        "version": "",
+        "prices_include_tax": false,
+        "date_created": null,
+        "date_modified": null,
+        "discount_total": 0,
+        "discount_tax": 0,
+        "shipping_total": 0,
+        "shipping_tax": 0,
+        "cart_tax": 0,
+        "total": 0,
+        "total_tax": 0,
+        "customer_id": 0,
+        "order_key": "",
+        "billing": {
+            "first_name": "",
+            "last_name": "",
+            "company": "",
+            "address_1": "",
+            "address_2": "",
+            "city": "",
+            "state": "",
+            "postcode": "",
+            "country": "",
+            "email": "",
+            "phone": ""
+        },
+        "shipping": {
+            "first_name": "",
+            "last_name": "",
+            "company": "",
+            "address_1": "",
+            "address_2": "",
+            "city": "",
+            "state": "",
+            "postcode": "",
+            "country": "",
+            "phone": ""
+        },
+        "payment_method": "",
+        "payment_method_title": "",
+        "transaction_id": "",
+        "customer_ip_address": "",
+        "customer_user_agent": "",
+        "created_via": "",
+        "customer_note": "",
+        "date_completed": null,
+        "date_paid": null,
+        "cart_hash": "",
+        "order_stock_reduced": false,
+        "download_permissions_granted": false,
+        "new_order_email_sent": false,
+        "recorded_sales": false,
+        "recorded_coupon_usage_counts": false
+    },
+    "\u0000*\u0000data_store": {},
+    "\u0000*\u0000cache_group": "orders",
+    "\u0000*\u0000meta_data": [
+        {
+            "id": 3006,
+            "key": "_shipping_hash",
+            "value": "9d4568c009d203ab10e33ea9953a0264"
+        },
+        {
+            "id": 3007,
+            "key": "_coupons_hash",
+            "value": "d751713988987e9331980363e24189ce"
+        },
+        {
+            "id": 3008,
+            "key": "_fees_hash",
+            "value": "d751713988987e9331980363e24189ce"
+        },
+        {
+            "id": 3009,
+            "key": "_taxes_hash",
+            "value": "d751713988987e9331980363e24189ce"
+        },
+        {
+            "id": 3010,
+            "key": "is_vat_exempt",
+            "value": "no"
+        },
+        {
+            "id": 3011,
+            "key": "_wc_order_attribution_source_type",
+            "value": "typein"
+        },
+        {
+            "id": 3012,
+            "key": "_wc_order_attribution_referrer",
+            "value": "http:\/\/localhost\/projeto\/"
+        },
+        {
+            "id": 3013,
+            "key": "_wc_order_attribution_utm_source",
+            "value": "(direct)"
+        },
+        {
+            "id": 3014,
+            "key": "_wc_order_attribution_session_entry",
+            "value": "http:\/\/localhost\/projeto\/prados3.0\/"
+        },
+        {
+            "id": 3015,
+            "key": "_wc_order_attribution_session_start_time",
+            "value": "2024-07-22 04:35:44"
+        },
+        {
+            "id": 3016,
+            "key": "_wc_order_attribution_session_pages",
+            "value": "4"
+        },
+        {
+            "id": 3017,
+            "key": "_wc_order_attribution_session_count",
+            "value": "5"
+        },
+        {
+            "id": 3018,
+            "key": "_wc_order_attribution_user_agent",
+            "value": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/126.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": 3019,
+            "key": "_wc_order_attribution_device_type",
+            "value": "Desktop"
+        },
+        {
+            "id": 3022,
+            "key": "_tribe_tickets_meta",
+            "value": {
+                "1023": [
+                    {
+                        "tribe-tickets-plus-iac-name": "teste",
+                        "tribe-tickets-plus-iac-email": "teste@teste.com",
+                        "telefone": "00000000",
+                        "data-de-nascimento": "2006-11-19",
+                        "rg": "00000000000000",
+                        "locais-de-embarque": "20-00 Norte Compras"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 3036,
+            "key": "_tribe_has_tickets",
+            "value": "1"
+        },
+        {
+            "id": 3037,
+            "key": "is_production_mode",
+            "value": "yes"
+        },
+        {
+            "id": 3038,
+            "key": "_used_gateway",
+            "value": "woo-mercado-pago-pix"
+        },
+        {
+            "id": 3039,
+            "key": "blocks_payment",
+            "value": "yes"
+        },
+        {
+            "id": 3042,
+            "key": "_wc_order_attribution_source_type",
+            "value": "typein"
+        },
+        {
+            "id": 3043,
+            "key": "_wc_order_attribution_referrer",
+            "value": "http:\/\/localhost\/projeto\/"
+        },
+        {
+            "id": 3044,
+            "key": "_wc_order_attribution_utm_source",
+            "value": "(direct)"
+        },
+        {
+            "id": 3045,
+            "key": "_wc_order_attribution_session_entry",
+            "value": "http:\/\/localhost\/projeto\/prados3.0\/"
+        },
+        {
+            "id": 3046,
+            "key": "_wc_order_attribution_session_start_time",
+            "value": "2024-07-22 04:35:44"
+        },
+        {
+            "id": 3047,
+            "key": "_wc_order_attribution_session_pages",
+            "value": "4"
+        },
+        {
+            "id": 3048,
+            "key": "_wc_order_attribution_session_count",
+            "value": "5"
+        },
+        {
+            "id": 3049,
+            "key": "_wc_order_attribution_user_agent",
+            "value": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/126.0.0.0 Safari\/537.36"
+        },
+        {
+            "id": 3050,
+            "key": "_wc_order_attribution_device_type",
+            "value": "Desktop"
+        }
+    ],
+    "\u0000*\u0000legacy_datastore_props": [
+        "_recorded_sales",
+        "_recorded_coupon_usage_counts",
+        "_download_permissions_granted",
+        "_order_stock_reduced",
+        "_new_order_email_sent"
+    ],
+    "\u0000*\u0000items": {
+        "line_items": {
+            "10": {
+                "legacy_values": null,
+                "legacy_cart_item_key": null,
+                "legacy_package_key": null
+            }
+        },
+        "fee_lines": []
+    },
+    "\u0000*\u0000items_to_delete": [],
+    "\u0000*\u0000data_store_name": "order",
+    "\u0000*\u0000status_transition": false,
+    "refunds": null,
+    "\u0000*\u0000refunded_line_items": null,
+    "customer_id": null
+}

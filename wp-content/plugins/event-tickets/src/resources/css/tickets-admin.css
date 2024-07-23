@@ -258,8 +258,14 @@
 /* -----------------------------------------------------------------------------
  * Anchor - Event Title
  *
- * This mixin intentionally only affects the text and border _colors_
+ * This mixin intentionally only affects the text, border and background _colors_
  * to make sure they all follow the Customizer overrides.
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * Anchor - Event Title
+ *
+ * This mixin intentionally only affects typography of the title
  * ----------------------------------------------------------------------------- */
 
 /* -----------------------------------------------------------------------------
@@ -595,18 +601,41 @@
 			font-size: var(--tec-font-size-2);
 			line-height: var(--tec-line-height-3);
 			font-weight: var(--tec-font-weight-regular);
+			background: transparent;
+			border-radius: 0;
 			border: 0;
+			color: inherit;
 			cursor: pointer;
 			display: inline-block;
 			height: auto;
+			outline: none;
 			padding: 0;
 			text-decoration: none;
 			width: auto;
+		}
+
+.tribe-common button.tribe-common-c-btn-link:focus,
+	.tribe-common button.tribe-common-c-btn-link:hover,
+	.tribe-common button.tribe-common-c-btn-link:active,
+	.tribe-common input[type="button"].tribe-common-c-btn-link:focus,
+	.tribe-common input[type="button"].tribe-common-c-btn-link:hover,
+	.tribe-common input[type="button"].tribe-common-c-btn-link:active,
+	.tribe-common input[type="submit"].tribe-common-c-btn-link:focus,
+	.tribe-common input[type="submit"].tribe-common-c-btn-link:hover,
+	.tribe-common input[type="submit"].tribe-common-c-btn-link:active,
+	.tribe-common a.tribe-common-c-btn-link:focus,
+	.tribe-common a.tribe-common-c-btn-link:hover,
+	.tribe-common a.tribe-common-c-btn-link:active {
+		background: transparent;
+		color: inherit;
+	}
+
+.tribe-common button.tribe-common-c-btn-link, .tribe-common input[type="button"].tribe-common-c-btn-link, .tribe-common input[type="submit"].tribe-common-c-btn-link, .tribe-common a.tribe-common-c-btn-link {
 			background-color: transparent;
 			text-align: center;
 			text-decoration: underline;
 			transition: var(--tec-transition-color);
-		}
+}
 
 .tribe-common button.tribe-common-c-btn-link:hover,
 	.tribe-common button.tribe-common-c-btn-link:focus,

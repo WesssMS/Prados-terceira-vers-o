@@ -1,0 +1,470 @@
+2024-07-23T00:17:44+00:00 NOTICE Requesting session ID... CONTEXT: {"_legacy":true}
+2024-07-23T00:17:45+00:00 NOTICE PagSeguro session is valid! The return is: SimpleXMLElement Object
+(
+    [id] => d3c5479f18c04af8afdebb81f042546d
+)
+ CONTEXT: {"_legacy":true}
+2024-07-23T00:17:54+00:00 NOTICE Requesting session ID... CONTEXT: {"_legacy":true}
+2024-07-23T00:17:55+00:00 NOTICE PagSeguro session is valid! The return is: SimpleXMLElement Object
+(
+    [id] => 4755f1ba2aaa4ea6afa030b9bd52d943
+)
+ CONTEXT: {"_legacy":true}
+2024-07-23T00:18:19+00:00 NOTICE Requesting direct payment for order 1184 with the following data: <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<payment>
+  <mode>default</mode>
+  <method>boleto</method>
+  <currency>BRL</currency>
+  <notificationURL><![CDATA[http://localhost/projeto/prados3.0/wc-api/WC_PagSeguro_Gateway/]]></notificationURL>
+  <items>
+    <item>
+      <id>1</id>
+      <description><![CDATA[Teste]]></description>
+      <amount>1.00</amount>
+      <quantity>3</quantity>
+    </item>
+  </items>
+  <reference><![CDATA[WC-1184]]></reference>
+  <sender>
+    <email><![CDATA[wermeson.blucomet@gmail.com]]></email>
+    <documents>
+      <document>
+        <type>CPF</type>
+        <value>06814984393</value>
+      </document>
+    </documents>
+    <name><![CDATA[Wermeson Soares]]></name>
+    <phone>
+      <areaCode>85</areaCode>
+      <number>985892221</number>
+    </phone>
+    <hash>f02850b8997731633527124071d3306e89685f15938189acd67cb31374d1287e</hash>
+  </sender>
+  <shipping>
+    <type>3</type>
+    <address>
+      <street><![CDATA[Rua Joana Albuquerque]]></street>
+      <number>111</number>
+      <complement><![CDATA[Casa]]></complement>
+      <district><![CDATA[conjunto sÃ£o francisco]]></district>
+      <postalCode>62785000</postalCode>
+      <city><![CDATA[Acarape]]></city>
+      <state>CE</state>
+      <country>BRA</country>
+    </address>
+    <cost>0</cost>
+  </shipping>
+</payment>
+ CONTEXT: {"_legacy":true}
+2024-07-23T00:18:20+00:00 NOTICE An error occurred while generating the PagSeguro direct payment: Array
+(
+    [headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+        (
+            [data:protected] => Array
+                (
+                    [date] => Tue, 23 Jul 2024 00:18:21 GMT
+                    [content-type] => application/xml;charset=ISO-8859-1
+                    [content-length] => 202
+                    [x-newrelic-app-data] => PxQFUVJVCAoAR1BSAAgDXlADAhFORDQHUjZKA1ZLVVFHDFYPbU5hBxdCYAQEMF1BRg0CB2seQVQ4HkJBAwgQA1MWUQ1WSxQaYypqNRhDH1JKBhtRSFEIBgRTV1YFHQZVVgcaEVJUW1cBVFlVDQkDBlBVD1cTTVUDCEVSPA==
+                    [vary] => Accept-Encoding,User-Agent
+                    [strict-transport-security] => max-age=15552000; includeSubDomains
+                    [cf-cache-status] => DYNAMIC
+                    [set-cookie] => __cf_bm=Pe_gIOMeSTdB0CpuIlAreL7HfAe98q5Kwx99bVIRe8Q-1721693901-1.0.1.1-1A1yhjpDnQcTFP7xf9hEs4DSgYcrZY9puXSVLyYDWHSkguGTV37FSrOc8xqWuOotawNXAhbtepupH1_XrOXoRg; path=/; expires=Tue, 23-Jul-24 00:48:21 GMT; domain=.pagseguro.uol.com.br; HttpOnly; Secure; SameSite=None
+                    [x-content-type-options] => nosniff
+                    [server] => cloudflare
+                    [cf-ray] => 8a777e1f2fc42874-FOR
+                )
+
+        )
+
+    [body] => <?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?><errors><error><code>10052</code><message>Não conseguimos prosseguir com a compra, entre em contato com o vendedor.</message></error></errors>
+    [response] => Array
+        (
+            [code] => 400
+            [message] => Bad Request
+        )
+
+    [cookies] => Array
+        (
+            [0] => WP_Http_Cookie Object
+                (
+                    [name] => __cf_bm
+                    [value] => Pe_gIOMeSTdB0CpuIlAreL7HfAe98q5Kwx99bVIRe8Q-1721693901-1.0.1.1-1A1yhjpDnQcTFP7xf9hEs4DSgYcrZY9puXSVLyYDWHSkguGTV37FSrOc8xqWuOotawNXAhbtepupH1_XrOXoRg
+                    [expires] => 1721695701
+                    [path] => /
+                    [domain] => pagseguro.uol.com.br
+                    [port] => 
+                    [host_only] => 
+                )
+
+        )
+
+    [filename] => 
+    [http_response] => WP_HTTP_Requests_Response Object
+        (
+            [data] => 
+            [headers] => 
+            [status] => 
+            [response:protected] => WpOrg\Requests\Response Object
+                (
+                    [body] => <?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?><errors><error><code>10052</code><message>Não conseguimos prosseguir com a compra, entre em contato com o vendedor.</message></error></errors>
+                    [raw] => HTTP/1.1 400 Bad Request
+Date: Tue, 23 Jul 2024 00:18:21 GMT
+Content-Type: application/xml;charset=ISO-8859-1
+Content-Length: 202
+Connection: close
+x-newrelic-app-data: PxQFUVJVCAoAR1BSAAgDXlADAhFORDQHUjZKA1ZLVVFHDFYPbU5hBxdCYAQEMF1BRg0CB2seQVQ4HkJBAwgQA1MWUQ1WSxQaYypqNRhDH1JKBhtRSFEIBgRTV1YFHQZVVgcaEVJUW1cBVFlVDQkDBlBVD1cTTVUDCEVSPA==
+vary: Accept-Encoding,User-Agent
+strict-transport-security: max-age=15552000; includeSubDomains
+CF-Cache-Status: DYNAMIC
+Set-Cookie: __cf_bm=Pe_gIOMeSTdB0CpuIlAreL7HfAe98q5Kwx99bVIRe8Q-1721693901-1.0.1.1-1A1yhjpDnQcTFP7xf9hEs4DSgYcrZY9puXSVLyYDWHSkguGTV37FSrOc8xqWuOotawNXAhbtepupH1_XrOXoRg; path=/; expires=Tue, 23-Jul-24 00:48:21 GMT; domain=.pagseguro.uol.com.br; HttpOnly; Secure; SameSite=None
+X-Content-Type-Options: nosniff
+Server: cloudflare
+CF-RAY: 8a777e1f2fc42874-FOR
+
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?><errors><error><code>10052</code><message>Não conseguimos prosseguir com a compra, entre em contato com o vendedor.</message></error></errors>
+                    [headers] => WpOrg\Requests\Response\Headers Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Array
+                                        (
+                                            [0] => Tue, 23 Jul 2024 00:18:21 GMT
+                                        )
+
+                                    [content-type] => Array
+                                        (
+                                            [0] => application/xml;charset=ISO-8859-1
+                                        )
+
+                                    [content-length] => Array
+                                        (
+                                            [0] => 202
+                                        )
+
+                                    [x-newrelic-app-data] => Array
+                                        (
+                                            [0] => PxQFUVJVCAoAR1BSAAgDXlADAhFORDQHUjZKA1ZLVVFHDFYPbU5hBxdCYAQEMF1BRg0CB2seQVQ4HkJBAwgQA1MWUQ1WSxQaYypqNRhDH1JKBhtRSFEIBgRTV1YFHQZVVgcaEVJUW1cBVFlVDQkDBlBVD1cTTVUDCEVSPA==
+                                        )
+
+                                    [vary] => Array
+                                        (
+                                            [0] => Accept-Encoding,User-Agent
+                                        )
+
+                                    [strict-transport-security] => Array
+                                        (
+                                            [0] => max-age=15552000; includeSubDomains
+                                        )
+
+                                    [cf-cache-status] => Array
+                                        (
+                                            [0] => DYNAMIC
+                                        )
+
+                                    [set-cookie] => Array
+                                        (
+                                            [0] => __cf_bm=Pe_gIOMeSTdB0CpuIlAreL7HfAe98q5Kwx99bVIRe8Q-1721693901-1.0.1.1-1A1yhjpDnQcTFP7xf9hEs4DSgYcrZY9puXSVLyYDWHSkguGTV37FSrOc8xqWuOotawNXAhbtepupH1_XrOXoRg; path=/; expires=Tue, 23-Jul-24 00:48:21 GMT; domain=.pagseguro.uol.com.br; HttpOnly; Secure; SameSite=None
+                                        )
+
+                                    [x-content-type-options] => Array
+                                        (
+                                            [0] => nosniff
+                                        )
+
+                                    [server] => Array
+                                        (
+                                            [0] => cloudflare
+                                        )
+
+                                    [cf-ray] => Array
+                                        (
+                                            [0] => 8a777e1f2fc42874-FOR
+                                        )
+
+                                )
+
+                        )
+
+                    [status_code] => 400
+                    [protocol_version] => 1.1
+                    [success] => 
+                    [redirects] => 0
+                    [url] => https://ws.pagseguro.uol.com.br/v2/transactions?email=wermeson.blucomet@gmail.com&token=716f0486-b57a-42d2-a9fe-e6d34206d4e2f7804f00487d9206963bc6b168c2b6e9a894-c8f6-45c6-8d05-f0332f4ca815
+                    [history] => Array
+                        (
+                        )
+
+                    [cookies] => WpOrg\Requests\Cookie\Jar Object
+                        (
+                            [cookies:protected] => Array
+                                (
+                                    [__cf_bm] => WpOrg\Requests\Cookie Object
+                                        (
+                                            [name] => __cf_bm
+                                            [value] => Pe_gIOMeSTdB0CpuIlAreL7HfAe98q5Kwx99bVIRe8Q-1721693901-1.0.1.1-1A1yhjpDnQcTFP7xf9hEs4DSgYcrZY9puXSVLyYDWHSkguGTV37FSrOc8xqWuOotawNXAhbtepupH1_XrOXoRg
+                                            [attributes] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                                                (
+                                                    [data:protected] => Array
+                                                        (
+                                                            [path] => /
+                                                            [expires] => 1721695701
+                                                            [domain] => pagseguro.uol.com.br
+                                                            [httponly] => 1
+                                                            [secure] => 1
+                                                            [samesite] => None
+                                                        )
+
+                                                )
+
+                                            [flags] => Array
+                                                (
+                                                    [creation] => 1721693900
+                                                    [last-access] => 1721693900
+                                                    [persistent] => 
+                                                    [host-only] => 
+                                                )
+
+                                            [reference_time] => 1721693900
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [filename:protected] => 
+        )
+
+)
+ CONTEXT: {"_legacy":true}
+2024-07-23T00:18:34+00:00 NOTICE Requesting direct payment for order 1184 with the following data: <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<payment>
+  <mode>default</mode>
+  <method>boleto</method>
+  <currency>BRL</currency>
+  <notificationURL><![CDATA[http://localhost/projeto/prados3.0/wc-api/WC_PagSeguro_Gateway/]]></notificationURL>
+  <items>
+    <item>
+      <id>1</id>
+      <description><![CDATA[Teste]]></description>
+      <amount>1.00</amount>
+      <quantity>3</quantity>
+    </item>
+  </items>
+  <reference><![CDATA[WC-1184]]></reference>
+  <sender>
+    <email><![CDATA[wermeson.blucomet@gmail.com]]></email>
+    <documents>
+      <document>
+        <type>CPF</type>
+        <value>06814984393</value>
+      </document>
+    </documents>
+    <name><![CDATA[Wermeson Soares]]></name>
+    <phone>
+      <areaCode>85</areaCode>
+      <number>985892221</number>
+    </phone>
+    <hash>f02850b8997731633527124071d3306e89685f15938189acd67cb31374d1287e</hash>
+  </sender>
+  <shipping>
+    <type>3</type>
+    <address>
+      <street><![CDATA[Rua Joana Albuquerque]]></street>
+      <number>111</number>
+      <complement><![CDATA[Casa]]></complement>
+      <district><![CDATA[conjunto sÃ£o francisco]]></district>
+      <postalCode>62785000</postalCode>
+      <city><![CDATA[Acarape]]></city>
+      <state>CE</state>
+      <country>BRA</country>
+    </address>
+    <cost>0</cost>
+  </shipping>
+</payment>
+ CONTEXT: {"_legacy":true}
+2024-07-23T00:18:35+00:00 NOTICE An error occurred while generating the PagSeguro direct payment: Array
+(
+    [headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+        (
+            [data:protected] => Array
+                (
+                    [date] => Tue, 23 Jul 2024 00:18:35 GMT
+                    [content-type] => application/xml;charset=ISO-8859-1
+                    [content-length] => 202
+                    [x-newrelic-app-data] => PxQFUVJVCAoAR1BSAAgDXlADAhFORDQHUjZKA1ZLVVFHDFYPbU5hBxdCYAQEMF1BRg0CB2seQVQ4HkJBAwgQA1MWUQ1WSxQaYypqNRhDH1JKBhtRSFIABgJUVVEBHQZVVgcaEVdVUlcHUABTWl1VBQcEX1ITTVUDCEVSPA==
+                    [vary] => Accept-Encoding,User-Agent
+                    [strict-transport-security] => max-age=15552000; includeSubDomains
+                    [cf-cache-status] => DYNAMIC
+                    [set-cookie] => __cf_bm=V4UlUW.IfA5wHi5YhP0omwjfb9sJIHLBwBNOvsVnmj4-1721693915-1.0.1.1-_WNGcln7F6Deor.PTDxdbRL9jt3FArV5z7wyYuMRWsvk3a9AXfp2F.v11LcaATJgl6gPLSi6bogfTSDW7_z8IQ; path=/; expires=Tue, 23-Jul-24 00:48:35 GMT; domain=.pagseguro.uol.com.br; HttpOnly; Secure; SameSite=None
+                    [x-content-type-options] => nosniff
+                    [server] => cloudflare
+                    [cf-ray] => 8a777e79de658776-GRU
+                )
+
+        )
+
+    [body] => <?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?><errors><error><code>10052</code><message>Não conseguimos prosseguir com a compra, entre em contato com o vendedor.</message></error></errors>
+    [response] => Array
+        (
+            [code] => 400
+            [message] => Bad Request
+        )
+
+    [cookies] => Array
+        (
+            [0] => WP_Http_Cookie Object
+                (
+                    [name] => __cf_bm
+                    [value] => V4UlUW.IfA5wHi5YhP0omwjfb9sJIHLBwBNOvsVnmj4-1721693915-1.0.1.1-_WNGcln7F6Deor.PTDxdbRL9jt3FArV5z7wyYuMRWsvk3a9AXfp2F.v11LcaATJgl6gPLSi6bogfTSDW7_z8IQ
+                    [expires] => 1721695715
+                    [path] => /
+                    [domain] => pagseguro.uol.com.br
+                    [port] => 
+                    [host_only] => 
+                )
+
+        )
+
+    [filename] => 
+    [http_response] => WP_HTTP_Requests_Response Object
+        (
+            [data] => 
+            [headers] => 
+            [status] => 
+            [response:protected] => WpOrg\Requests\Response Object
+                (
+                    [body] => <?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?><errors><error><code>10052</code><message>Não conseguimos prosseguir com a compra, entre em contato com o vendedor.</message></error></errors>
+                    [raw] => HTTP/1.1 400 Bad Request
+Date: Tue, 23 Jul 2024 00:18:35 GMT
+Content-Type: application/xml;charset=ISO-8859-1
+Content-Length: 202
+Connection: close
+x-newrelic-app-data: PxQFUVJVCAoAR1BSAAgDXlADAhFORDQHUjZKA1ZLVVFHDFYPbU5hBxdCYAQEMF1BRg0CB2seQVQ4HkJBAwgQA1MWUQ1WSxQaYypqNRhDH1JKBhtRSFIABgJUVVEBHQZVVgcaEVdVUlcHUABTWl1VBQcEX1ITTVUDCEVSPA==
+vary: Accept-Encoding,User-Agent
+strict-transport-security: max-age=15552000; includeSubDomains
+CF-Cache-Status: DYNAMIC
+Set-Cookie: __cf_bm=V4UlUW.IfA5wHi5YhP0omwjfb9sJIHLBwBNOvsVnmj4-1721693915-1.0.1.1-_WNGcln7F6Deor.PTDxdbRL9jt3FArV5z7wyYuMRWsvk3a9AXfp2F.v11LcaATJgl6gPLSi6bogfTSDW7_z8IQ; path=/; expires=Tue, 23-Jul-24 00:48:35 GMT; domain=.pagseguro.uol.com.br; HttpOnly; Secure; SameSite=None
+X-Content-Type-Options: nosniff
+Server: cloudflare
+CF-RAY: 8a777e79de658776-GRU
+
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?><errors><error><code>10052</code><message>Não conseguimos prosseguir com a compra, entre em contato com o vendedor.</message></error></errors>
+                    [headers] => WpOrg\Requests\Response\Headers Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Array
+                                        (
+                                            [0] => Tue, 23 Jul 2024 00:18:35 GMT
+                                        )
+
+                                    [content-type] => Array
+                                        (
+                                            [0] => application/xml;charset=ISO-8859-1
+                                        )
+
+                                    [content-length] => Array
+                                        (
+                                            [0] => 202
+                                        )
+
+                                    [x-newrelic-app-data] => Array
+                                        (
+                                            [0] => PxQFUVJVCAoAR1BSAAgDXlADAhFORDQHUjZKA1ZLVVFHDFYPbU5hBxdCYAQEMF1BRg0CB2seQVQ4HkJBAwgQA1MWUQ1WSxQaYypqNRhDH1JKBhtRSFIABgJUVVEBHQZVVgcaEVdVUlcHUABTWl1VBQcEX1ITTVUDCEVSPA==
+                                        )
+
+                                    [vary] => Array
+                                        (
+                                            [0] => Accept-Encoding,User-Agent
+                                        )
+
+                                    [strict-transport-security] => Array
+                                        (
+                                            [0] => max-age=15552000; includeSubDomains
+                                        )
+
+                                    [cf-cache-status] => Array
+                                        (
+                                            [0] => DYNAMIC
+                                        )
+
+                                    [set-cookie] => Array
+                                        (
+                                            [0] => __cf_bm=V4UlUW.IfA5wHi5YhP0omwjfb9sJIHLBwBNOvsVnmj4-1721693915-1.0.1.1-_WNGcln7F6Deor.PTDxdbRL9jt3FArV5z7wyYuMRWsvk3a9AXfp2F.v11LcaATJgl6gPLSi6bogfTSDW7_z8IQ; path=/; expires=Tue, 23-Jul-24 00:48:35 GMT; domain=.pagseguro.uol.com.br; HttpOnly; Secure; SameSite=None
+                                        )
+
+                                    [x-content-type-options] => Array
+                                        (
+                                            [0] => nosniff
+                                        )
+
+                                    [server] => Array
+                                        (
+                                            [0] => cloudflare
+                                        )
+
+                                    [cf-ray] => Array
+                                        (
+                                            [0] => 8a777e79de658776-GRU
+                                        )
+
+                                )
+
+                        )
+
+                    [status_code] => 400
+                    [protocol_version] => 1.1
+                    [success] => 
+                    [redirects] => 0
+                    [url] => https://ws.pagseguro.uol.com.br/v2/transactions?email=wermeson.blucomet@gmail.com&token=716f0486-b57a-42d2-a9fe-e6d34206d4e2f7804f00487d9206963bc6b168c2b6e9a894-c8f6-45c6-8d05-f0332f4ca815
+                    [history] => Array
+                        (
+                        )
+
+                    [cookies] => WpOrg\Requests\Cookie\Jar Object
+                        (
+                            [cookies:protected] => Array
+                                (
+                                    [__cf_bm] => WpOrg\Requests\Cookie Object
+                                        (
+                                            [name] => __cf_bm
+                                            [value] => V4UlUW.IfA5wHi5YhP0omwjfb9sJIHLBwBNOvsVnmj4-1721693915-1.0.1.1-_WNGcln7F6Deor.PTDxdbRL9jt3FArV5z7wyYuMRWsvk3a9AXfp2F.v11LcaATJgl6gPLSi6bogfTSDW7_z8IQ
+                                            [attributes] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                                                (
+                                                    [data:protected] => Array
+                                                        (
+                                                            [path] => /
+                                                            [expires] => 1721695715
+                                                            [domain] => pagseguro.uol.com.br
+                                                            [httponly] => 1
+                                                            [secure] => 1
+                                                            [samesite] => None
+                                                        )
+
+                                                )
+
+                                            [flags] => Array
+                                                (
+                                                    [creation] => 1721693915
+                                                    [last-access] => 1721693915
+                                                    [persistent] => 
+                                                    [host-only] => 
+                                                )
+
+                                            [reference_time] => 1721693915
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [filename:protected] => 
+        )
+
+)
+ CONTEXT: {"_legacy":true}

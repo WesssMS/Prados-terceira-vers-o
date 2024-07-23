@@ -266,8 +266,14 @@
 /* -----------------------------------------------------------------------------
  * Anchor - Event Title
  *
- * This mixin intentionally only affects the text and border _colors_
+ * This mixin intentionally only affects the text, border and background _colors_
  * to make sure they all follow the Customizer overrides.
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * Anchor - Event Title
+ *
+ * This mixin intentionally only affects typography of the title
  * ----------------------------------------------------------------------------- */
 
 /* -----------------------------------------------------------------------------
@@ -603,18 +609,41 @@
 			font-size: var(--tec-font-size-2);
 			line-height: var(--tec-line-height-3);
 			font-weight: var(--tec-font-weight-regular);
+			background: transparent;
+			border-radius: 0;
 			border: 0;
+			color: inherit;
 			cursor: pointer;
 			display: inline-block;
 			height: auto;
+			outline: none;
 			padding: 0;
 			text-decoration: none;
 			width: auto;
+		}
+
+.tribe-common button.tribe-common-c-btn-link:focus,
+	.tribe-common button.tribe-common-c-btn-link:hover,
+	.tribe-common button.tribe-common-c-btn-link:active,
+	.tribe-common input[type="button"].tribe-common-c-btn-link:focus,
+	.tribe-common input[type="button"].tribe-common-c-btn-link:hover,
+	.tribe-common input[type="button"].tribe-common-c-btn-link:active,
+	.tribe-common input[type="submit"].tribe-common-c-btn-link:focus,
+	.tribe-common input[type="submit"].tribe-common-c-btn-link:hover,
+	.tribe-common input[type="submit"].tribe-common-c-btn-link:active,
+	.tribe-common a.tribe-common-c-btn-link:focus,
+	.tribe-common a.tribe-common-c-btn-link:hover,
+	.tribe-common a.tribe-common-c-btn-link:active {
+		background: transparent;
+		color: inherit;
+	}
+
+.tribe-common button.tribe-common-c-btn-link, .tribe-common input[type="button"].tribe-common-c-btn-link, .tribe-common input[type="submit"].tribe-common-c-btn-link, .tribe-common a.tribe-common-c-btn-link {
 			background-color: transparent;
 			text-align: center;
 			text-decoration: underline;
 			transition: var(--tec-transition-color);
-		}
+}
 
 .tribe-common button.tribe-common-c-btn-link:hover,
 	.tribe-common button.tribe-common-c-btn-link:focus,
@@ -1169,20 +1198,46 @@
 		line-height: var(--tec-line-height-3);
 		font-weight: var(--tec-font-weight-regular);
 		font-weight: var(--tec-font-weight-bold);
+		background: transparent;
+		border-radius: 0;
 		border: 0;
+		color: inherit;
 		cursor: pointer;
 		display: inline-block;
 		height: auto;
+		outline: none;
 		padding: 0;
 		text-decoration: none;
 		width: auto;
+	}
+
+.tribe-common .tribe-tickets__attendee__fields__footer_checkout-button:focus,
+	.tribe-common .tribe-tickets__attendee__fields__footer_checkout-button:hover,
+	.tribe-common .tribe-tickets__attendee__fields__footer_checkout-button:active,
+	.tribe-common .tribe-tickets__buy:focus,
+	.tribe-common .tribe-tickets__buy:hover,
+	.tribe-common .tribe-tickets__buy:active,
+	.entry .entry-content .tribe-common .tribe-tickets__attendee__fields__footer_checkout-button:focus,
+	.entry .entry-content .tribe-common .tribe-tickets__attendee__fields__footer_checkout-button:hover,
+	.entry .entry-content .tribe-common .tribe-tickets__attendee__fields__footer_checkout-button:active,
+	.entry .entry-content .tribe-common .tribe-tickets__buy:focus,
+	.entry .entry-content .tribe-common .tribe-tickets__buy:hover,
+	.entry .entry-content .tribe-common .tribe-tickets__buy:active {
+		background: transparent;
+		color: inherit;
+	}
+
+.tribe-common .tribe-tickets__attendee__fields__footer_checkout-button,
+	.tribe-common .tribe-tickets__buy,
+	.entry .entry-content .tribe-common .tribe-tickets__attendee__fields__footer_checkout-button,
+	.entry .entry-content .tribe-common .tribe-tickets__buy {
 		border-radius: var(--tec-border-radius-default);
 		color: var(--tec-color-background);
 		text-align: center;
 		transition: var(--tec-transition-background-color);
 
 		margin: 0;
-	}
+}
 
 .tribe-common .tribe-tickets__attendee__fields__footer_checkout-button.tribe-common-c-btn, .tribe-common .tribe-tickets__buy.tribe-common-c-btn, .entry .entry-content .tribe-common .tribe-tickets__attendee__fields__footer_checkout-button.tribe-common-c-btn, .entry .entry-content .tribe-common .tribe-tickets__buy.tribe-common-c-btn {
 			white-space: nowrap;
@@ -1697,6 +1752,7 @@
 				color: var(--tec-color-text-primary);
 				font-family: var(--tec-font-family-sans-serif);
 				font-weight: var(--tec-font-weight-bold);
+				text-transform: initial;
 				font-size: var(--tec-font-size-3);
 				line-height: var(--tec-line-height-2);
 
