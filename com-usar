@@ -1,0 +1,9 @@
+Explicação das Funções
+Função get_jwt_token: Esta função faz uma solicitação POST para o endpoint de autenticação JWT e retorna o token JWT.
+Função create_event: Esta função faz uma solicitação POST para o endpoint da API REST do The Events Calendar para criar um novo evento, utilizando o token JWT para autenticação.
+Funções Auxiliares: As funções wp_remote_post, wp_remote_retrieve_body, is_wp_error, e a classe WP_Error são usadas para simular o ambiente do WordPress e facilitar a realização de solicitações HTTP.
+Como Usar
+Substitua 'https://seudominio.com' pelo domínio do seu site.
+Substitua 'seu-usuario' e 'sua-senha' pelas credenciais do usuário WordPress com permissões adequadas.
+Substitua 'Nome do Evento', 'Descrição do Evento', '2024-08-01 08:00:00', '2024-08-01 17:00:00', 'Local do Evento' e 'Organizador do Evento' com os detalhes do seu evento.
+Este script deve ser executado em um ambiente PHP que possa fazer solicitações HTTP. Ele obterá um token JWT e usará esse token para criar um evento no The Events Calendar através da API REST.
